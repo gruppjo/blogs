@@ -1,4 +1,4 @@
-### A pro's workflows for building apps with Ionic. Part 3: Orbit
+### Advanced workflows for building apps with Ionic. Part 3: Orbit
 The air is getting a little thin in app-develop-adventure-orbit! Luckily part 3 of this series about developing Ionic apps with Generator-M-Ionic comes with a sweet oxygen mask full of life-saving elements: environments, proxies and build tools for app icons, splash screens, build variables and app delivery. Take a deep deep breath and extend the project made space-ready in part 2.
 
 ### Gulp environments

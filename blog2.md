@@ -1,4 +1,4 @@
-### A pro's workflows for building apps with Ionic. Part 2: Mountain
+### Advanced workflows for building apps with Ionic. Part 2: Mountain
 Welcome to serious-app-development-mountain! In the second part of our series on developing Ionic apps with [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic) you'll be learning about wonderful ingredients like testing, sub-generators, plugins and ecosystem integration into platforms like the [Ionic Platform](http://ionic.io/). We are building on top of the project we created in part 1 of this series.
 
 
