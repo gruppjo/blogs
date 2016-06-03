@@ -6,7 +6,7 @@ Welcome to serious-app-development-mountain! In the second part of our series on
 
 
 ### Cross-platform HTML5 app development is hard
-Yes, even with awesome Generator-M-Ionic, awesome Angular, awesome Cordova, awesome Ionic which supports iOS, Android, the mobile web (since [Ionic 1.2](http://blog.ionic.io/announcing-ionic-1-2/)) and even Windows (in [Ionic 2](http://blog.ionic.io/announcing-windows-support-in-ionic-2/)) cross-platform HTML5 app development can be a pain.
+Yes, even with awesome Generator-M-Ionic, awesome Angular, awesome Cordova, awesome Ionic which supports iOS, Android, the mobile web and even Windows (since [Ionic 1.2](http://blog.ionic.io/announcing-ionic-1-2/)) cross-platform HTML5 app development can be a pain.
 
 Here's why: Maybe your app should run on phones and tablets. With a different, especially designed layout and workflow for each of them. Ah, and what the customer forgot to tell you: obviously it should also run in the browser! *"It's built using web technologies anyways, isn't it?"* Your customer says. Maybe even on desktops using [Electron](http://electron.atom.io/)? Uff ... You'll be optimizing and testing a lot!
 
@@ -193,7 +193,7 @@ This is just like `gulp watch` but only for the `www/` folder. It builds your ap
 
 
 ### Ecosystems
-I bet you start feeling like a real pro already. And you should! We're getting close to orbit. Although you're more and more becoming a seasoned astronaut there are some things you just don't want to build yourself every time. Push services, user management or other backend services for instance. Luckily there's a series of choices of platforms to handle those tasks for you: the [Ionic Platform](http://ionic.io/platform) is popular and feature rich, for our enterprise customers we offer our [Relution Enterprise Mobility Platform](http://www.mwaysolutions.com/en/mobile-device-management-mdm/) and there are many other options.
+I bet you start feeling like a real pro already. And you should! We're getting close to orbit. Although you're more and more becoming a seasoned astronaut there are some things you just don't want to build yourself every time. Push services, user management or other backend services for instance. Luckily there's a series of choices of platforms to handle those tasks for you: the [Ionic Platform](http://ionic.io/platform) is popular and feature rich, for enterprise customers we offer our [Relution Enterprise Mobility Management](https://www.relution.io/en/) platform and there are many other options.
 
 The 'Ecosystems' section of our [guides](https://github.com/mwaylabs/generator-m-ionic#guides) can help you integrate some of these platforms with nice set up guides, generated sample code and templates. Most of the work we've done for you already, so focussing on building your app is easier than ever.
 

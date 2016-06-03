@@ -278,7 +278,7 @@ At this point I like to explicitly separate the web app build from the Cordova b
 Now that you have built two runnable apps, how do you get them to your customer for testing purposes?
 
 - an easy way to do so are the [Ionic Platform](http://ionic.io/platform) features, once you've [integrated it](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/ecosystems/ionic_platform.md) into your project
-- for enterprises our [Relution Platform](http://www.mwaysolutions.com/en/mobile-device-management-mdm/) is a valuable choice
+- for enterprises our [Relution Enterprise Mobility Management](https://www.relution.io/en/) platform is a valuable choice
 - [Testflight](https://developer.apple.com/testflight/) and [HockeyApp](https://www.hockeyapp.net/features/) are also popular
 
 Pick the one that suits you best and get that customer feedback!
