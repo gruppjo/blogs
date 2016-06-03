@@ -4,7 +4,7 @@
 
 At [M-Way Solutions](http://www.mwaysolutions.com/en/enterprise-mobility-management/) we've been building large-scale enterprise-level apps with Ionic for the past two years. The challenges we faced sparked the creation of [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic), a powerful open-source collection of development tools, that put the fruits of our extensive experience right at the end of your fingertips.
 
-Are you looking for a single tool that you can use to quickly create compelling prototypes for impressing your customers *AND* that later scales with complex project requirements, like testing, quality assurance, and continuous integration? Then look no further and prepare yourself for a thrilling ride through our generator's Building-apps-with-Ionic adventure island!
+Are you looking for a single tool that you can use to quickly create compelling prototypes for impressing your customers *AND* that later scales with complex project requirements like testing, quality assurance, and continuous integration? Then look no further and prepare yourself for a thrilling ride through our generator's Building-apps-with-Ionic adventure island!
 
 ### Introduction
 First stop is at the ancient ruins of Pre-Ionic-mobile-app-development: We've been developing mobile apps long before Ionic made it into our development stack along with Angular. We consistently explored different combinations of MV* frameworks and mobile frameworks throughout the years, we even developed our own mobile framework for quite some time but Angular & Ionic [kept consistently impressing us](http://blog.mwaysolutions.com/2015/09/10/generator-m-ionic-html5-mobile-app-development-evolved/). Focussing on Angular and Ionic allowed us to tackle many of the other challenges that app development, our business and enterprise customers pose.
@@ -20,14 +20,14 @@ These challenges led to the genesis of [Generator-M-Ionic](https://github.com/mw
 - **Standardize project setup**
   - tame and wire together an ever-changing and **complex frontend technology stack**
   - give a default **project & file structure**
-  - come with **sensible default configurations** for development tools like Git, ESLint and others
-  - still easily modified to suit **different project requirements**
+  - come with **sensible default configurations** for development tools like [Git](https://git-scm.com/), [ESLint](http://eslint.org/) and others
+  - is still easily modified to suit **different project requirements**
   - make app development more **approachable** for newcomers
   - simplify **project handovers**
 
 So it now stars as the **one go-to starting point** for ourselves and a growing community when it comes to mobile app development with Ionic. And you can start using it today! Whether you're throwing together a proof of concept for a customer or a prototype for a presentation, the project is able to seamlessly transition into a full-fledged powerful enterprise app, no matter which platforms or sets of devices you are developing for.
 
-This post is part of a series on kick-starting your development with Ionic and Generator-M-Ionic, so without any further ado here is the fun-map for our three-act-adventure:
+This post is part of a series on kick-starting your development with Ionic and Generator-M-Ionic, so without any further ado here is the fun-map of our three-act-adventure:
 
 - The rest of this part: Take your first baby steps with Generator-M-Ionic in our island's toddler-playground
   - preparations
@@ -58,11 +58,11 @@ After you've set up everything properly launch your terminal -if you haven't don
 ```sh
 npm install --global generator-m-ionic bower yo gulp
 ```
-This will install Generator-M-Ionic using the [node package manager](https://www.npmjs.com/) along with the popular web development tools [Bower](http://bower.io/) (manage and install client packages like Angular), [Yeoman](http://yeoman.io/) (runs the generator and scaffolds your app) and [Gulp](http://gulpjs.com/) (runs all post-setup tasks). If you don't know what these are the [What's in the box Guide](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/intro/whats_in_the_box.md) can help shed some light on the technologies Generator-M-Ionic uses.
+This will install Generator-M-Ionic using the [node package manager](https://www.npmjs.com/) along with the popular web development tools [Bower](http://bower.io/) (manage and install client packages like Angular), [Yeoman](http://yeoman.io/) (runs the generator and scaffolds your app) and [Gulp](http://gulpjs.com/) (runs all post-setup tasks). If you don't know what these are, the [What's in the box Guide](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/intro/whats_in_the_box.md) can help shed some light on the technologies Generator-M-Ionic uses.
 
 
 ### Create your project
-Once all of this is done, you might want to create a new folder to generate your project in and launch the generator:
+Once all of this is done, you probably want to create a new folder to generate your project in and launch the generator:
 ```sh
 # create new directory and change into it
 mkdir adventure-island && cd $_
@@ -118,15 +118,15 @@ app/
 ```
 
 #### index.html
-Everything that makes up your app comes together in this file: Cordova, Ionic, Angular, Angular modules, your own application logic, styles and assets. I'll give a little more details here without going into the particulars too much:
+Everything that makes up your app comes together in this file: Cordova, Ionic, Angular, Angular modules, your own application logic, styles and assets. I'll give some more details here without going into the particulars too much:
 
 When you ran `gulp watch` it did this to your `index.html`:
 - inject all bower javascript and css files (Angular, Ionic, ...)
 - inject all of your app files (compiled css, angular files, ...)
 
-And whenever you make changes to your application files or if you create new ones `gulp watch` will update all necessary files and reload your browser. Additionally -besides the necessary HTML and angular bootstrapping- the `index.html` contains:
+And whenever you make changes to your application files or if you create new ones, `gulp watch` will update all necessary files and reload your browser. Additionally -besides the necessary HTML and angular bootstrapping we just discussed- the `index.html` contains:
 - the link to the `cordova.js` file that Cordova provides upon build
-- basic ionic directives used by the  routing in your `main.js`
+- basic ionic directives used by the routing in your `main.js`
 
 ### Git integration
 Now that you have created your first app with Generator-M-Ionic and wired it all together with `gulp watch`, it might be a good time to secure your progress! Good thing your project comes with a fine-tuned [Git](https://git-scm.com/) integration already! So simply type the following in your project folder:

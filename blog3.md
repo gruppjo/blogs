@@ -2,11 +2,11 @@
 
 ![image](img/blog-03.png)
 
-The air is getting a little thin in app-develop-adventure-orbit! Luckily part 3 of this series about developing Ionic apps with Generator-M-Ionic comes with a sweet oxygen mask full of life-saving elements: environments, proxies and build tools for app icons, splash screens, build variables and app delivery. Take a deep deep breath and extend the project made space-ready in part 2.
+The air is getting a little thin in app-develop-orbit! Luckily part 3 of this series about developing Ionic apps with Generator-M-Ionic comes with a sweet oxygen mask full of life-saving elements: environments, CORS proxies and build tools for app icons, splash screens, build variables and app delivery. Take a deep deep breath and extend the project we made space-ready in part 2.
 
 ### Gulp environments
 So you have your app all set up, added plugins and other components while implementing your app logic and at some point you will probably want to exchange data with an external backend.
-No problem: just inject the good old Angular [$http service](https://docs.angularjs.org/api/ng/service/$http) handle all the HTTP calls with that nice Angular [promise API](https://docs.angularjs.org/api/ng/service/$q) and you're done. For instance, let's suppose I want to shoot some requests at the [Postman Echo API](https://echo.getpostman.com).
+No problem: just inject the good old Angular [$http service](https://docs.angularjs.org/api/ng/service/$http), handle all the HTTP calls with that nice Angular [promise API](https://docs.angularjs.org/api/ng/service/$q) and you're done. For instance, let's suppose I want to shoot some requests at the [Postman Echo API](https://echo.getpostman.com).
 ```js
 $http.get('https://echo.getpostman.com/get')
 .then(function (response) {
@@ -56,7 +56,7 @@ $http.get(Config.ENV.API_ENDPOINT + '/get')
   console.log(response);
 });
 ```
-Now if you run:
+Now if you run one of these:
 ```sh
 gulp watch
 # or
@@ -85,7 +85,7 @@ gulp watch --env=prod
 ```
 YEAH!
 
-What's this sorcery? Environments come in handy for a variety of tasks: managing different API keys, tokens, logging levels, feature switches and as we just found out, API endpoints. And the best part, you can have as many environments as you want! A more detailed explanation of this incomprehensible-yet-so-appealing piece of magic is available in our [Environments Guide](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/environments.md).
+What's this sorcery? Environments come in handy for a variety of tasks: managing different API keys, tokens, logging levels, feature switches and as we just found out, API endpoints. And the best part: you can have as many environments as you want! A more detailed explanation of this incomprehensible-yet-so-appealing piece of magic is available in our [Environments Guide](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/environments.md).
 
 
 ### CORS & Proxying
@@ -95,11 +95,11 @@ XMLHttpRequest cannot load https://echo.getpostman.com/. The
 'Access-Control-Allow-Origin' header contains the invalid value ''.
 Origin 'http://localhost:3000' is therefore not allowed access.
 ```
-Most of us have been there: *"Hello, improperly configured REST API!"*. And believe me, my team and I have been beaten by issues with [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) (Cross-Origin Resource Sharing) A LOT of times, so I wrote down a little guide on how to deal with [CORS issues & Proxying](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/cors_proxy.md) in general. If you're dealing with CORS or proxying it's a great read! There's a variety of options and depending in your project some might work better than others.
+Most of us have been there: *"Hello, improperly configured REST API!"*. And believe me, my team and I have been beaten by issues with [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) (Cross-Origin Resource Sharing) MANY MANY times, so I wrote down a little guide on how to deal with [CORS issues & Proxying](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/cors_proxy.md) in general. If you're dealing with CORS or proxying, it's a great read! There's a variety of options and depending in your project some might work better than others.
 
 One of the most straight forward ones, which is also covered in the guide I just mentioned, is the [built-in proxy](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/cors_proxy.md#built-in-proxy) that comes with your Generator-M-Ionic project.
 
-Remember that piece of code from earlier? This will actually run into a CORS error
+Remember that piece of code from earlier? This will actually run into a CORS error using that API endpoint:
 ```js
 $http.get('https://echo.getpostman.com/get')
 .then(function (response) {
@@ -111,14 +111,14 @@ In order to configure the built-in proxy, I'll just start `gulp watch` with the 
 gulp watch --proxyPath=/proxy --proxyMapTo=https://echo.getpostman.com
 ```
 
-And now this request will give me the response from `https://echo.getpostman.com/get` that I want.
+And now the following request to my proxy will give me the response from `https://echo.getpostman.com/get` that I want.
 ```js
 $http.get('/proxy/get')
 .then(function (response) {
   console.log(response);
 });
 ```
-In fact now I can send any request of the pattern `/proxy/**/*` and it'll be mapped to `https://echo.getpostman.com/**/*` through the proxy. This goes especially nicely with the generator's [Environments feature](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/environments.md) then you can just code it like this:
+In fact, now I can send any request of the pattern `/proxy/**/*` and it'll be mapped to `https://echo.getpostman.com/**/*` through the proxy. This goes especially nicely with the generator's [Environments feature](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/environments.md), because then you can just code it like this:
 ```js
 $http.get(Config.ENV.API_ENDPOINT + '/get')
 .then(function (response) {
@@ -138,11 +138,21 @@ With the contents of your environment JSON files being:
   "API_ENDPOINT": "https://echo.getpostman.com"
 }
 ```
-That's quite useful isn't it?
+And then switch between firing against the proxy or directly at the API using the `--env` flag:
+```sh
+# will default to --env=dev and thus use the proxy
+gulp watch --proxyPath=/proxy --proxyMapTo=https://echo.getpostman.com
+
+# the built version will fire direclty against the API
+gulp build --env=prod
+```
+As simple as that! No more manual, tedious and error-prone changing of the endpoints.
+
+Quite useful isn't it?
 
 
 ### Default tasks
-But yes, I get it, typing that whole thing is really tedious:
+But yes, I get it, typing that whole thing also is kind of tedious:
 ```sh
 gulp watch --proxyPath=/proxy --proxyMapTo=https://echo.getpostman.com
 ```
@@ -170,25 +180,26 @@ So building your app with Cordova is just as easy as running your app on a devic
 ```sh
 gulp --cordova "build ios"
 ```
-Remember that this implicitly runs `gulp build` first and then triggers Cordova's [build command](https://cordova.apache.org/docs/en/latest/reference/cordova-cli/index.html#cordova-build-command) -as explained in our [Development Introduction](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/start/development_intro.md#using-the-cordova-cli)- and is the equivalent of running:
+Remember that this implicitly runs `gulp build` first and then triggers Cordova's [build command](https://cordova.apache.org/docs/en/latest/reference/cordova-cli/index.html#cordova-build-command) -as explained in our [Development Introduction](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/start/development_intro.md#using-the-cordova-cli)- and is the equivalent of running these two one after another:
 ```sh
 gulp build
 gulp --cordova "build ios" --no-build
 ```
-However for proper code-signing it sometimes is necessary to go with Cordova's [prepare command](https://cordova.apache.org/docs/en/latest/reference/cordova-cli/index.html#cordova-prepare-command) and then open the platform's project in `platforms/` and perform the code-signing, building and all that in, for instance, [Xcode](https://developer.apple.com/xcode/) when building for iOS.
+However for proper code-signing it sometimes is necessary to go with Cordova's [prepare command](https://cordova.apache.org/docs/en/latest/reference/cordova-cli/index.html#cordova-prepare-command) and then open the platform's project located in `platforms/` and perform the code-signing, building and all that, for instance, in [Xcode](https://developer.apple.com/xcode/) when building for iOS.
 ```sh
 gulp --cordova "prepare ios" # also runs `gulp build` first
 ```
 
 #### Build for different APIs
-Since we've already configured our [environments](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/environments.md) properly, building for two different APIs is just as easy as developing for two different APIs as we already did using `gulp watch` and the `--env` flag. So to build one app for each environment:
+Since we've already configured our [environments](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/environments.md) properly, building for two different APIs is just as easy as developing for two different APIs. And we already know how to do that using `gulp watch` and the `--env` flag. To build one app for each environment is just as easy:
 ```sh
 # build with dev environment
 gulp --cordova "build ios" --env=dev
+
 # build with prod environment
 gulp --cordova "build ios" --env=prod
 ```
-The `--env=dev` flag is not necessary, since the environment always defaults to the dev environment but I like to be explicit here to make it more obvious what's happening.
+The `--env=dev` flag is not necessary, since the environment always defaults to the dev environment with every command but I like to be explicit here to make it more obvious what's happening.
 
 Ok, done! Building different apps for each API. Next challenge!
 
@@ -197,6 +208,7 @@ I'm not going to go into the particulars of this one, since there's a perfectly 
 ```sh
 # build with dev set of resources
 gulp --cordova "build ios" --res=dev
+
 # build with prod set of resources
 gulp --cordova "build ios" --res=prod
 ```
@@ -206,9 +218,10 @@ So final frontier! How do we display the date and time of the build in our app?
 #### Injecting variables from the command line
 At some point, especially when you're automating the build process of your apps by [continuously integrating](https://en.wikipedia.org/wiki/Continuous_integration) with [Jenkins](https://jenkins.io/) or [Travis](https://travis-ci.org/) you might want to inject data into your app through the command line. Granted, showing the date and time of a build in the app is not a very useful use-case. In reality you will probably rather find yourself wanting to append build numbers into your app's version number, which in turn is read from the `config.xml` and inject both of them in the app. And guess what? There's a [guide for doing both of that](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/programmatically_change_configxml.md). But for now to keep things simple and for the lack of a better example we'll just stick with injecting something simple, like a date.
 
-You may have noticed that in your `Config` constant is another block that looks similar to where the whole [environment variables](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/environments.md) get injected. That's exactly the place where you can inject variables into your app from the command line using `gulp watch` or any tasks that uses `gulp build` implicitly.
+You may have noticed that in your `Config` constant is another block that looks similar to the one where the whole [environment variables](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/environments.md) get injected. That block is exactly the place where you can inject variables into your app from the command line using `gulp watch` and any tasks that uses `gulp build` implicitly. See how:
 
 ```sh
+# running $(date +%s) will only work on Unix
 gulp watch --buildVars="buildTime:$(date +%s),buildNo:12"
 ```
 Running the above command will produce this output in the `Config` const:
@@ -259,7 +272,7 @@ gulp --cordova "build ios" --no-build
 gulp build --env=prod --res=prod --buildVars="buildTime:$(date +%s),buildNo:12"
 gulp --cordova "build ios" --no-build
 ```
-At this point I like to explicitly separate the web app build from the Cordova build so it doesn't get messy and it's a little more apparent what we're actually doing.
+At this point I like to explicitly separate the web app build from the Cordova build so it doesn't get messy and it's a little more apparent what we're actually doing. Don't forget the `--no-build` option when running the Cordova part of your build or it will implicitly run `gulp build` and overwrite your previous `gulp build` without any of the options you supplied earlier.
 
 ### Deliver
 Now that you have built two runnable apps, how do you get them to your customer for testing purposes?
@@ -272,13 +285,13 @@ Pick the one that suits you best and get that customer feedback!
 
 
 ### Bang!
-\*confettiandglitter rainingdownonyou\*
+**\*confettiandglitter rainingdownonyou\***
 
 You've done it! Big and warm-hearted congratulations!
 
-You fought your way all the way through adventure-island's toddler-playground, grabbed that development pick-axe and dragged yourself on top of that mountain, only to jump in that space suit and finally explore app-heaven! You learned how to set up a project with [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic), about its file structure, Git, quality assurance with linting & testing, sub-generators, Sass, Plugins, a lot of Gulp tasks, ecosystems, environments, CORS, proxies, build vars and many many other things.
+You fought yourself all the way through adventure-island's toddler-playground, grabbed your development pick-axe and dragged yourself on top of that mountain, only to jump in that space suit and finally explore app-heaven! You learned how to set up a project with [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic), learned about its file structure, Git, quality assurance with linting & testing, sub-generators, Sass, Plugins, a lot of Gulp tasks, ecosystems, environments, CORS, proxies, build vars and many many other things.
 
-Stay curious, there's many more things to explore and pat yourself on the back! You. Have. Earned it!
+Stay curious, there's many more things to explore and don't forget to firmly pat yourself on the back! You. Have. Earned it!
 
 ### Sparkly future
 We're living in exiting times, Angular 2 and Ionic 2 are around the corner and Typescript and ES6 are becoming viable choices and we're on it! Would you like to see a version of [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic) with those technologies? What features would you like with that? Let us know!

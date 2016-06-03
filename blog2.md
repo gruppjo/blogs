@@ -8,13 +8,13 @@ Welcome to serious-app-development-mountain! In the second part of our series on
 ### Cross-platform HTML5 app development is hard
 Yes, even with awesome Generator-M-Ionic, awesome Angular, awesome Cordova, awesome Ionic which supports iOS, Android, the mobile web (since [Ionic 1.2](http://blog.ionic.io/announcing-ionic-1-2/)) and even Windows (in [Ionic 2](http://blog.ionic.io/announcing-windows-support-in-ionic-2/)) cross-platform HTML5 app development can be a pain.
 
-Maybe your app should run on phones and tablets. With a different, especially designed layout and workflow for each of them. Ah, and what the customer forgot to tell you: obviously it should also run in the browser! It's built using web technologies anyways, isn't it? Maybe even on desktops using [Electron](http://electron.atom.io/)? You'll be optimizing and testing a lot!
+Here's why: Maybe your app should run on phones and tablets. With a different, especially designed layout and workflow for each of them. Ah, and what the customer forgot to tell you: obviously it should also run in the browser! *"It's built using web technologies anyways, isn't it?"* Your customer says. Maybe even on desktops using [Electron](http://electron.atom.io/)? Uff ... You'll be optimizing and testing a lot!
 
-Even when that's taken care of there's a lot of complex topics like handling translations, offline data, persistence and data syncing between devices or the backend and your app. Things that need to be thoroughly coded while you juggle certificates and licenses when building for the different app stores, trying to integrate complicated Push services or coding custom Cordova plugins and hooks. And usually when it's the very last thing you need: along come changing customer requirements and you're back to the drawing board.
+And even when that's taken care of there's a lot of complex topics like handling translations, offline data, persistence and data syncing between devices or the backend of your app. Things that need to be thoroughly coded while you juggle certificates and licenses when building for the different app stores, trying to integrate complicated Push services or coding custom Cordova plugins and hooks. And usually when it's the very last thing you need: along come changing customer requirements and you're back to the drawing board.
 
 I know. We've been through all of this. That's why we built [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic), a trust-worthy and powerful coding companion so that you can focus on the real challenges. And development shouldn't be one of them!
 
-Are you ready to climb that mountain?
+Are you ready to climb that mountain? Let's go.
 
 ### Quality assurance
 You've set up your project, created your first commit and are now ready to start coding. Whether you are coding alone or in a team, as a developer worried about professional development you'll want to take some measures to ensure the quality of your code. We've got you covered on this one!
@@ -27,7 +27,7 @@ Your Generator-M-Ionic project comes with established coding guidelines and work
 To additionally get linting notifications as you develop in your editor or to learn how to configure the default set of rules, check out our [ESLint Guide](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/eslint.md). If you are working with JSON files in your `app/` folder -for instance to handle translations- the generator's linting will validate those too! This keeps your development trouble free.
 
 #### Testing
-Another area where you just don't have to deal with the hassle of setting up and configuring everything yourself is unit testing with karma and end-to-end testing with protractor. It just works. Your sample app even comes with a ready-to-use test-suite that you can try out right now by running:
+Another area where you just don't have to deal with the hassle of setting up and configuring everything yourself is unit testing with karma and end-to-end testing with protractor. Your sample app even comes with a ready-to-use test-suite that you can try out right now by running:
 ```sh
 gulp karma
 # and
@@ -44,12 +44,12 @@ protractor.conf.js
 Our [Testing Guide](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/testing.md) can help you get started with writing your own unit and end-to-end tests for your app.
 
 ### Coding
-Ok, ok, enough already! You want to finally start coding and developing your very own app? Say no more. You'll probably want to add:
-- your own Angular components using our [subgenerators](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/sub_generators.md)
+Ok, ok, enough already! You want to finally start coding and develop your very own app? Say no more. You'll probably want to:
+- add your own Angular components using our [subgenerators](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/sub_generators.md)
   - controllers, templates, directives, services, filters, constants, ... or even whole modules
-- some [Sass](http://sass-lang.com/) to spice up your app's styling
-- [Cordova Plugins](http://ngcordova.com/docs/plugins/) to use with [ngCordova](http://ngcordova.com/) for that real app-feeling
-- and maybe some additional [bower packages](http://bower.io/search/)
+- add some [Sass](http://sass-lang.com/) to spice up your app's styling
+- add [Cordova Plugins](http://ngcordova.com/docs/plugins/) to use with [ngCordova](http://ngcordova.com/) for that real app-feeling
+- and maybe add some additional [bower packages](http://bower.io/search/) for special tasks
 
 We will go through each of these tasks briefly to give you a general idea of how things work. For more detailed explanations visit our [Documentation](https://github.com/mwaylabs/generator-m-ionic/).
 
@@ -74,7 +74,7 @@ Now we only need to add a state to the `main.js`:
   }
 })
 ```
-And a navigation item in our `tabs.html` which you'll find in `app/main/templates/` to bring it all together:
+Then add a navigation item in our `tabs.html` file which you'll find in `app/main/templates/` to bring it all together:
 ```html
 <!-- List Tab -->
 <ion-tab title="Phone" icon-off="ion-ios-telephone-outline"
@@ -83,7 +83,7 @@ And a navigation item in our `tabs.html` which you'll find in `app/main/template
   <ion-nav-view name="tab-phone"></ion-nav-view>
 </ion-tab>
 ```
-That's it. A new navigation item, a new route, controller and template in about two minutes. Here's the result:
+That's it. A new navigation item, a new route, controller, test file and template in about two minutes. Here's the result:
 
 ![image](img/nav_phone.png)
 
@@ -99,19 +99,19 @@ ion-list {
 Upon saving, your `gulp watch` task will automatically compile and inject the resulting CSS, even reload your browser. Not sassy enough? As your project grows larger, you may want to split your Sass in multiple files. Find out how in our [Sass integration Guide](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/sass_integration.md).
 
 #### Adding plugins
-I know. Before we don't add some nice [Cordova Plugins](http://ngcordova.com/docs/plugins/) to our app, it won't be a real hybrid app. So let's do it!
+Before we don't add some nice [Cordova Plugins](http://ngcordova.com/docs/plugins/) to our app, it won't be a real hybrid app. So let's do it!
 
 Your project comes with a local installation of the latest version of the [Cordova CLI](https://cordova.apache.org/docs/en/latest/guide/cli/index.html) which you can invoke through Gulp. We install it locally so you don't have to worry about which project you set up with which version. It's always the one it got set up with. The syntax is almost exactly the same as using a global CLI installation. So for instance to install the Cordova camera plugin run:
 ```sh
 gulp --cordova "plugin add org.apache.cordova.camera --save"
 ```
-You want to develop for Windows as well? Type:
+You want to develop for Windows as well? Install the appropriate [Cordova Platform requirements](https://cordova.apache.org/docs/en/latest/guide/platforms/win8/index.html) and type:
 ```sh
 gulp --cordova "platform add windows --save"
 ```
 Don't forget to call `--save` in order to persist new plugins and platforms in the `config.xml`! Our Development Introduction has a dedicated part on [using the Cordova CLI wrapper](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/start/development_intro.md#using-the-cordova-cli).
 
-Now that we installed a new plugin we want to use it! [ngCordova](http://ngcordova.com/) is declared as a dependency for every module you create using the generator. Refer to the main module declaration in your `main.js` to see how it's done. So in my `PhoneCtrl` I'll just inject the `$cordovaCamera` [service](http://ngcordova.com/docs/plugins/camera/) to access the plugin:
+Now that we installed a new plugin we want to use it! [ngCordova](http://ngcordova.com/) is declared as a dependency for every module you create using the generator, thus you can just start using the plugins right away. Refer to the main module declaration in your `main.js` to see how it's done. So in my `PhoneCtrl` I'll only have to inject the `$cordovaCamera` [service](http://ngcordova.com/docs/plugins/camera/) in order to access the plugin and that's all:
 ```js
 angular.module('main')
 .controller('PhoneCtrl', function ($cordovaCamera) {
@@ -127,7 +127,9 @@ angular.module('main')
   });
 });
 ```
-Some plugins expose JavaScript globals and some developers prefer to access their plugins through the `cordova` global because ngCordova is not always up to date with the latest plugin versions or may not support the plugin they want to use. In that case you need to extend your globals section of your `app/.eslintrc` file:
+Adding new plugins has never been so simple!
+
+In some cases you need to extend your ESLint configuration because some plugins expose JavaScript globals that you might want to use (like `Camera` in the example above). Or you might prefer to access your plugins through the `cordova` global because ngCordova is not always up to date with the latest plugin versions or may not support the plugin you want to use. In order to use those globals without ESLint complaining, augment the `globals` section of your `app/.eslintrc`:
 ```js
 //..
 "globals": {
@@ -140,10 +142,9 @@ Some plugins expose JavaScript globals and some developers prefer to access thei
 },
 //..
 ```
-Adding new plugins has never been so simple!
 
 #### Bower packages
-And last but not least you'll probably want some more [bower packages](http://bower.io/search/) that go with your app. Maybe your app needs to support different languages? For that we use [angular-translate](https://github.com/angular-translate/angular-translate). Install it by running:
+And last but not least you'll probably want some more [bower packages](http://bower.io/search/) that go with your app. Maybe your app needs to support different languages? For that we at M-Way Solutions usually use [angular-translate](https://github.com/angular-translate/angular-translate). Install it by running:
 ```sh
 bower install angular-translate --save
 ```
@@ -167,7 +168,7 @@ gulp --cordova "run ios"
 # or
 gulp --cordova "run android"
 ```
-Two things happen here:
+Two things happen when you run this command:
 
 1. Gulp will build your app using `gulp build`
   - this takes care of all the JavaScript, HTML and CSS and puts it into the `www/` folder
@@ -179,7 +180,7 @@ Two things happen here:
 
 Test your glorious app on your device!
 
-The implicit run of `gulp build` and for which Cordova commands it will run is explained in more detail in our [Development Introduction](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/start/development_intro.md#cordova-build-run-emulate--under-the-hood).
+The implicit run of `gulp build`, for which Cordova commands it will run as well as build options like minification are explained in our [Development Introduction](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/start/development_intro.md#cordova-build-run-emulate--under-the-hood) in more detail.
 
 
 #### gulp watch-build
@@ -197,7 +198,7 @@ I bet you start feeling like a real pro already. And you should! We're getting c
 The 'Ecosystems' section of our [guides](https://github.com/mwaylabs/generator-m-ionic#guides) can help you integrate some of these platforms with nice set up guides, generated sample code and templates. Most of the work we've done for you already, so focussing on building your app is easier than ever.
 
 ### Congratulations!
-You have conquered the mountain and learned how to season your app with a lot different interesting spices: sub-generators, Sass, plugins, ecosystems, bower packages. Be proud! Ascend your development skills to out-of-this-world levels in part 3 of this series by owning environments, proxies and build tools handling app icons, splash screens, continuous integration and build variables. And at the very end, see what the future of Generator-M-Ionic has to offer for you!
+You have conquered app-development-mountain and learned how to season your app with a lot of interesting spices: sub-generators, Sass, plugins, ecosystems and bower packages. Be proud! Ascend your development skills to out-of-this-world levels in part 3 of this series by owning environments, proxies and build tools, handling app icons, splash screens, continuous integration and build variables. And at the very end, see what the future of Generator-M-Ionic has to offer for you!
 
 ### Get in touch
 One thing we're particularly interested in: Live-reload for the device. How important do you think it is?
