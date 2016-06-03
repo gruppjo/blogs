@@ -204,3 +204,8 @@ You have conquered app-development-mountain and learned how to season your app w
 One thing we're particularly interested in: Live-reload for the device. How important do you think it is?
 
 Feedback, ideas, comments regarding this blog post or any of the features discussed here are very welcome in either the comments section below, at our [Generator-M-Ionic's Github repository](https://github.com/mwaylabs/generator-m-ionic) or the [Generator-M-Ionic Gitter Chat](https://gitter.im/mwaylabs/generator-m-ionic).
+
+### Credits
+Author: [Jonathan Grupp](https://github.com/gruppjo)  
+Headline illustrations: [Christian Kahl](http://www.art-noir.net/)  
+Special thanks to Volker Hahn, Mathias Maier, Katie Ginder-Vogel, Tim Lancina

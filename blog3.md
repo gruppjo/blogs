@@ -298,3 +298,8 @@ We're living in exiting times, Angular 2 and Ionic 2 are around the corner and T
 
 ### Get in touch
 Feedback, ideas, comments regarding this blog post or any of the features discussed here are very welcome in either the comments section below, at our [Generator-M-Ionic's Github repository](https://github.com/mwaylabs/generator-m-ionic) or the [Generator-M-Ionic Gitter Chat](https://gitter.im/mwaylabs/generator-m-ionic).
+
+### Credits
+Author: [Jonathan Grupp](https://github.com/gruppjo)  
+Headline illustrations: [Christian Kahl](http://www.art-noir.net/)  
+Special thanks to Volker Hahn, Mathias Maier, Katie Ginder-Vogel, Tim Lancina
