@@ -1,4 +1,7 @@
 ### Advanced workflows for building apps with Ionic. Part 1: Playground
+
+![image](img/blog-01.png)
+
 At [M-Way Solutions](http://www.mwaysolutions.com/en/enterprise-mobility-management/) we've been building large-scale enterprise-level apps with Ionic for the past two years. The challenges we faced sparked the creation of [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic), a powerful open-source collection of development tools, that put the fruits of our extensive experience right at the end of your fingertips.
 
 Are you looking for a single tool that you can use to quickly create compelling prototypes for impressing your customers *AND* that later scales with complex project requirements, like testing, quality assurance, and continuous integration? Then look no further and prepare yourself for a thrilling ride through our generator's Building-apps-with-Ionic adventure island!
