@@ -36,8 +36,8 @@ gulp protractor
 The relevant files for the test setup are these:
 ```
 test/
-  └──  karma/
-  └──  protractor/
+  └── karma/
+  └── protractor/
 karma.conf.js
 protractor.conf.js
 ```

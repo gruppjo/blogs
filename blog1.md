@@ -74,7 +74,7 @@ You'll be asked a series of questions regarding the project you're creating, lik
 
 ![image](img/generator_question.png)
 
-If you're not sure what some of these mean, they are explained in the [Questions](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/start/questions.md) introduction document. For the rest of this series I'm going with `tabs` as a starter template. When you've answered all the questions, all the node and bower dependencies will be installed for your project. This might take a while but luckily you'll only have to do this once for each project.
+If you're not sure what some of these mean, they are explained in the [Questions introduction document](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/start/questions.md). For the rest of this series I'm going with `tabs` as a starter template. When you've answered all the questions, all the node and bower dependencies will be installed for your project. This might take a while but luckily you'll only have to do this once for each project.
 
 ![image](img/npm_install.png)
 
