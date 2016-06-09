@@ -109,7 +109,7 @@ You want to develop for Windows as well? Install the appropriate [Cordova Platfo
 ```sh
 gulp --cordova "platform add windows --save"
 ```
-Don't forget to call `--save` in order to persist new plugins and platforms in the `config.xml`! Our Development Introduction has a dedicated part on [using the Cordova CLI wrapper](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/start/development_intro.md#using-the-cordova-cli).
+Don't forget to call `--save` in order to persist new plugins and platforms in the `config.xml`! Our Development Introduction has a dedicated part on [using the Cordova CLI wrapper](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/development_intro.md#using-the-cordova-cli).
 
 Now that we installed a new plugin we want to use it! [ngCordova](http://ngcordova.com/) is declared as a dependency for every module you create using the generator, thus you can just start using the plugins right away. Refer to the main module declaration in your `main.js` to see how it's done. So in my `PhoneCtrl` I'll only have to inject the `$cordovaCamera` [service](http://ngcordova.com/docs/plugins/camera/) in order to access the plugin and that's all:
 ```js
@@ -180,7 +180,7 @@ Two things happen when you run this command:
 
 Test your glorious app on your device!
 
-The implicit run of `gulp build`, for which Cordova commands it will run as well as build options like minification are explained in our [Development Introduction](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/start/development_intro.md#cordova-build-run-emulate--under-the-hood) in more detail.
+The implicit run of `gulp build`, for which Cordova commands it will run as well as build options like minification are explained in our [Development Introduction](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/development_intro.md#cordova-build-run-emulate--under-the-hood) in more detail.
 
 
 #### gulp watch-build
@@ -195,7 +195,7 @@ This is just like `gulp watch` but only for the `www/` folder. It builds your ap
 ### Ecosystems
 I bet you start feeling like a real pro already. And you should! We're getting close to orbit. Although you're more and more becoming a seasoned astronaut there are some things you just don't want to build yourself every time. Push services, user management or other backend services for instance. Luckily there's a series of choices of platforms to handle those tasks for you: the [Ionic Platform](http://ionic.io/platform) is popular and feature rich, for enterprise customers we offer our [Relution Enterprise Mobility Management](https://www.relution.io/en/) platform and there are many other options.
 
-The 'Ecosystems' section of our [guides](https://github.com/mwaylabs/generator-m-ionic#guides) can help you integrate some of these platforms with nice set up guides, generated sample code and templates. Most of the work we've done for you already, so focussing on building your app is easier than ever.
+The [Ecosystems section of our Guides](https://github.com/mwaylabs/generator-m-ionic#ecosystems) can help you integrate some of these platforms with nice set up guides, generated sample code and templates. Most of the work we've done for you already, so focussing on building your app is easier than ever.
 
 ### Congratulations!
 You have conquered app-development-mountain and learned how to season your app with a lot of interesting spices: sub-generators, Sass, plugins, ecosystems and bower packages. Be proud! Ascend your development skills to out-of-this-world levels in part 3 of this series by owning environments, proxies and build tools, handling app icons, splash screens, continuous integration and build variables. And at the very end, see what the future of Generator-M-Ionic has to offer for you!

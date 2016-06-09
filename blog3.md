@@ -180,7 +180,7 @@ So building your app with Cordova is just as easy as running your app on a devic
 ```sh
 gulp --cordova "build ios"
 ```
-Remember that this implicitly runs `gulp build` first and then triggers Cordova's [build command](https://cordova.apache.org/docs/en/latest/reference/cordova-cli/index.html#cordova-build-command) -as explained in our [Development Introduction](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/start/development_intro.md#using-the-cordova-cli)- and is the equivalent of running these two one after another:
+Remember that this implicitly runs `gulp build` first and then triggers Cordova's [build command](https://cordova.apache.org/docs/en/latest/reference/cordova-cli/index.html#cordova-build-command) -as explained in our [Development Introduction](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/development_intro.md#using-the-cordova-cli)- and is the equivalent of running these two one after another:
 ```sh
 gulp build
 gulp --cordova "build ios" --no-build
@@ -285,7 +285,7 @@ Pick the one that suits you best and get that customer feedback!
 
 
 ### Bang!
-**\*confettiandglitter rainingdownonyou\***
+**\*confettiandglitter rainingdownonyou***
 
 You've done it! Big and warm-hearted congratulations!
 

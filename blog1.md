@@ -15,7 +15,7 @@ These challenges led to the genesis of [Generator-M-Ionic](https://github.com/mw
  - for development, testing, quality assurance, building, continuous integration
  - for complex project requirements like managing different sets and versions of APIs, app icons and splash screens
 - **Embed nicely into ecosystem**
-  - integrates nicely into different solutions like [Ionic Platform](http://ionicframework.com/docs/api/utility/ionic.Platform/) or our own [Relution](https://www.relution.io/en/)
+  - integrates nicely into different solutions like [Ionic Platform](https://ionic.io/platform) or our own [Relution](https://www.relution.io/en/)
   - use technology stack many developers already know: [Git](https://git-scm.com/), [Yeoman](http://yeoman.io/), [Bower](http://bower.io/), [Gulp](http://gulpjs.com/), [Cordova](https://cordova.apache.org/), ...
 - **Standardize project setup**
   - tame and wire together an ever-changing and **complex frontend technology stack**
@@ -52,7 +52,7 @@ So pack your shovels, buckets and the rest of your building-equipment and meet m
 
 While I will try to explain everything from the ground up, I do expect you to have some experience in web development and development with Angular and Ionic in general.
 
-So before we do dive into the sandbox we'll have to check whether your system is ready for cross-platform HTML5 app development. The first thing you need to install is [Node](https://nodejs.org/en/) and the **Platform SDKs** for the platforms you want to develop for. The latter is only needed if you want to run your app on a real device during development. Have you already built apps using the [Ionic CLI](http://ionicframework.com/docs/cli/)? Then chances are high you already have those installed and don't need to do it again. You haven't? Then follow our [Installation and Prerequisites Guide](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/start/installation_prerequisites.md).
+So before we do dive into the sandbox we'll have to check whether your system is ready for cross-platform HTML5 app development. The first thing you need to install is [Node](https://nodejs.org/en/) and the **Platform SDKs** for the platforms you want to develop for. The latter is only needed if you want to run your app on a real device during development. Have you already built apps using the [Ionic CLI](http://ionicframework.com/docs/cli/)? Then chances are high you already have those installed and don't need to do it again. You haven't? Then follow our [Installation and Prerequisites Guide](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/installation_prerequisites.md).
 
 After you've set up everything properly launch your terminal -if you haven't done so already- and run:
 ```sh
@@ -74,7 +74,7 @@ You'll be asked a series of questions regarding the project you're creating, lik
 
 ![image](img/generator_question.png)
 
-If you're not sure what some of these mean, just go with the defaults. For the starter template I'm going with `tabs` for the rest of this series. When you've answered all the questions, all the node and bower dependencies will be installed for your project. This might take a while but luckily you'll only have to do this once for each project.
+If you're not sure what some of these mean, they are explained in the [Questions](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/start/questions.md) introduction document. For the rest of this series I'm going with `tabs` as a starter template. When you've answered all the questions, all the node and bower dependencies will be installed for your project. This might take a while but luckily you'll only have to do this once for each project.
 
 ![image](img/npm_install.png)
 
