@@ -41,7 +41,7 @@ test/
 karma.conf.js
 protractor.conf.js
 ```
-Our [Testing Guide](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/testing.md) can help you get started with writing your own unit and end-to-end tests for your app.
+Our [Testing Guide](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/testing.md) can help you get started with writing your own unit and end-to-end tests for your app. Once you have that mastered, the [Husky Hooks Guide](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/guides/testing_workflow.md) explains how you can run linting and tests automatically before you `git commit` or `git push`.
 
 ### Coding
 Ok, ok, enough already! You want to finally start coding and develop your very own app? Say no more. You'll probably want to:
