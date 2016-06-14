@@ -2,7 +2,7 @@
 
 ![image](img/blog-01.png)
 
-At [M-Way Solutions](http://www.mwaysolutions.com/) we've been building large-scale enterprise-level apps with Ionic for the past two years. The challenges we faced sparked the creation of [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic), a powerful open-source collection of development tools, that put the fruits of our extensive experience right at the end of your fingertips.
+At [M-Way Solutions](http://www.mwaysolutions.com/) we've been building large-scale enterprise-level apps with [Ionic](http://ionicframework.com/) for the past two years. The challenges we faced sparked the creation of [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic), a powerful open-source collection of development tools (including the [Ionic CLI](http://ionicframework.com/docs/cli/)), that put the fruits of our extensive experience right at the end of your fingertips.
 
 Are you looking for a single tool that you can use to quickly create compelling prototypes for impressing your customers *AND* that later scales with complex project requirements like testing, quality assurance, and continuous integration? Then look no further and prepare yourself for a thrilling ride through our generator's Building-apps-with-Ionic adventure island!
 
@@ -15,7 +15,7 @@ These challenges led to the genesis of [Generator-M-Ionic](https://github.com/mw
  - for development, testing, quality assurance, building, continuous integration
  - for complex project requirements like managing different sets and versions of APIs, app icons and splash screens
 - **Embed nicely into ecosystem**
-  - integrates nicely into different solutions like [Ionic Platform](https://ionic.io/platform) or our own [Relution](https://www.relution.io/en/)
+  - integrates nicely into different solutions like [Ionic Platform](https://ionic.io/platform) (using the [Ionic CLI](http://ionicframework.com/docs/cli/)) or our own [Relution](https://www.relution.io/en/)
   - use technology stack many developers already know: [Git](https://git-scm.com/), [Yeoman](http://yeoman.io/), [Bower](http://bower.io/), [Gulp](http://gulpjs.com/), [Cordova](https://cordova.apache.org/), ...
 - **Standardize project setup**
   - tame and wire together an ever-changing and **complex frontend technology stack**
@@ -25,7 +25,7 @@ These challenges led to the genesis of [Generator-M-Ionic](https://github.com/mw
   - make app development more **approachable** for newcomers
   - simplify **project handovers**
 
-So it now stars as the **one go-to starting point** for ourselves and a growing community when it comes to mobile app development with Ionic. And you can start using it today! Whether you're throwing together a proof of concept for a customer or a prototype for a presentation, the project is able to seamlessly transition into a full-fledged powerful enterprise app, no matter which platforms or sets of devices you are developing for.
+So it now stars as the **one go-to starting point** for ourselves and a growing community when it comes to mobile app development with [Ionic](http://ionicframework.com/). And you can start using it today! Whether you're throwing together a proof of concept for a customer or a prototype for a presentation, the project is able to seamlessly transition into a full-fledged powerful enterprise app, no matter which platforms or sets of devices you are developing for.
 
 This post is part of a series on kick-starting your development with Ionic and Generator-M-Ionic, so without any further ado here is the fun-map of our three-act-adventure:
 
@@ -37,7 +37,7 @@ This post is part of a series on kick-starting your development with Ionic and G
   - quality assurance and testing
   - adding Angular components, Sass, Cordova Plugins and bower packages
   - run your app on a device
-  - integrate into different ecosystems like [Ionic Platform](http://ionic.io/)
+  - integrate into different ecosystems like [Ionic Platform](http://ionic.io/) using the [Ionic CLI](http://ionicframework.com/docs/cli/)
 - Part 3: Lift your app into adventure-orbit
   - ease through backend issues with environments and a CORS proxy
   - learn about powerful build tools like resource sets and build vars
