@@ -27,6 +27,8 @@ These challenges led to the genesis of [Generator-M-Ionic](https://github.com/mw
 
 So it now stars as the **one go-to starting point** for ourselves and a growing community when it comes to mobile app development with [Ionic](http://ionicframework.com/). And you can start using it today! Whether you're throwing together a proof of concept for a customer or a prototype for a presentation, the project is able to seamlessly transition into a full-fledged powerful enterprise app, no matter which platforms or sets of devices you are developing for.
 
+### About this series
+
 This post is part of a series on kick-starting your development with Ionic and Generator-M-Ionic, so without any further ado here is the fun-map of our three-act-adventure:
 
 - The rest of this part: Take your first baby steps with Generator-M-Ionic in our island's toddler-playground
