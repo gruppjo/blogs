@@ -162,7 +162,27 @@ angular.module('main', [
 Translations? Now you got them! Refer to their [documentation](https://angular-translate.github.io/) to learn more.
 
 ### Browser or device?
-Up until now we have only used `gulp watch` for our developing purposes. At least when you are working with plugins you may want to test your app on a device. If you have your system correctly set up according to the [Cordova Platform Guides](http://cordova.apache.org/docs/en/latest/#develop-for-platforms), this should be as easy as running:
+Up until now we have only seen our app in the browser using `gulp watch`. But at least when you are working with plugins you may want to test your app on a device or emulator. If you have your system correctly set up according to the [Cordova Platform Guides](http://cordova.apache.org/docs/en/latest/#develop-for-platforms), this should be easy:
+
+1. connect your device to your machine
+2. make sure they're both on the same network
+3. start the livereload command and keep it running:
+
+```sh
+# run on a connected device with livereload
+gulp --livereload "run ios"
+# run on an emulator with livereload
+gulp --livereload "run --emulate android"
+```
+
+The best part about using livereload is, you can make changes to your code and see the changes immediately on the device. Just as with `gulp watch`, but on the device! Only if you make changes to the Cordova files (`config.xml`, Platforms, Plugins) you'll have to run the command again.
+
+Your glorious app is ready to be tested on your device!
+
+![image](img/device.jpg)
+
+
+If you don't want to rely on your development machine to keep the livereload command running, you can run a full build of your app which is then pushed onto your device.
 ```sh
 gulp --cordova "run ios"
 # or
@@ -175,10 +195,6 @@ Two things happen when you run this command:
 2. Gulp will call Cordova with the supplied attributes and
   - takes the contents of the `www/` folder and builds a Cordova app from it
   - the app is then pushed onto your device
-
-![image](img/device.jpg)
-
-Test your glorious app on your device!
 
 The implicit run of `gulp build`, for which Cordova commands it will run as well as build options like minification are explained in our [Development Introduction](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/development_intro.md#cordova-build-run-emulate--under-the-hood) in more detail.
 
@@ -201,8 +217,6 @@ The [Ecosystems section of our Guides](https://github.com/mwaylabs/generator-m-i
 You have conquered app-development-mountain and learned how to season your app with a lot of interesting spices: sub-generators, Sass, plugins, ecosystems and bower packages. Be proud! Ascend your development skills to out-of-this-world levels in part 3 of this series by owning environments, proxies and build tools, handling app icons, splash screens, continuous integration and build variables. And at the very end, see what the future of Generator-M-Ionic has to offer for you!
 
 ### Get in touch
-One thing we're particularly interested in: Live-reload for the device. How important do you think it is?
-
 Feedback, ideas, comments regarding this blog post or any of the features discussed here are very welcome in either the comments section below, at our [Generator-M-Ionic's Github repository](https://github.com/mwaylabs/generator-m-ionic) or the [Generator-M-Ionic Gitter Chat](https://gitter.im/mwaylabs/generator-m-ionic).
 
 ### Credits
