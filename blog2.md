@@ -1,4 +1,4 @@
-### Advanced workflows for building apps with Ionic. Part 2: Mountain
+### Advanced workflows for building rock-solid Ionic apps. Part 2: Mountain
 
 ![image](img/blog-02.png)
 
@@ -85,7 +85,9 @@ Then add a navigation item in our `tabs.html` file which you'll find in `app/mai
 ```
 That's it. A new navigation item, a new route, controller, test file and template in about two minutes. Here's the result:
 
-![image](img/nav_phone.png)
+<p align="center">
+  <img src="img/nav_phone.png" width="330px">
+</p>
 
 #### Adding Sass
 This is an even easier task. Every module you generate comes with a default Sass file. For your main module this would be `main.scss` and it's located in `app/main/styles/`. Open it and add some Sass:
@@ -222,4 +224,4 @@ Feedback, ideas, comments regarding this blog post or any of the features discus
 ### Credits
 Author: [Jonathan Grupp](https://github.com/gruppjo)  
 Headline illustrations: [Christian Kahl](http://www.art-noir.net/)  
-Special thanks to Volker Hahn, Mathias Maier, Katie Ginder-Vogel, Tim Lancina
+Special thanks to Volker Hahn & Mathias Maier
