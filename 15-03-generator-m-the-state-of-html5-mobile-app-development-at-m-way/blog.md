@@ -1,79 +1,70 @@
 > Originally published on March 26, 2015 at the [M-Way Solutions Blog](http://blog.mwaysolutions.com/2015/03/26/generator-m-the-state-of-html5-mobile-app-development-at-m-way/).
 
-# Generator-M(-Ionic): HTML5 mobile app development evolved
+# Generator-M: the state of HTML5 mobile app development at M-Way
 
 ![image](img/header.jpg)
 
+Technology-wise, the past years at our HTML5 mobile app department have been very turbulent. We ditched our ambitious goals of further developing our own mobile framework and settled for much more humble goals. This has helped us become more productive, more valuable for the open source community and more attractive for our applicants. Do you want to know how? Then keep on reading!
 
-Almost a year ago, ditching development of our own mobile framework lead to the genesis of [Generator-M](https://github.com/mwaylabs/generator-m) - our advanced open-source generator for HTML5 mobile apps. Since then it's been receiving increasing support from the community and we are enjoying very much to see it grow. Today we're announcing a new feature-packed version `1.3.0` and a new name for the project: namely [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic). Find out why we think the new name better reflects the direction our generator is heading into and why it should be your first choice for professional HTML5 mobile app development with Ionic.
 
-## What's the generator?
-If you are new to developing with the generator or the concept of generators itself, make sure to check out the [Yeoman Website](http://yeoman.io/) for a brief introduction.
+## Contemplation
 
-Being entirely built with [node.js](https://nodejs.org/en/) our generator plugs together a HTML5 mobile development stack using all the great open source technologies of the web ecosystem. These are used worldwide to successfully build high-quality software. [Yeoman](http://yeoman.io/) is used to scaffold your app, [Gulp](http://gulpjs.com/) to run a huge variety of development, testing, build and integration tasks, [Bower](http://bower.io/) manages frontend dependencies, [Sass](http://sass-lang.com/) gives superpowers to your CSS and finally [AngularJS](https://angularjs.org/) is the JavaScript MV*-framework of choice. On top of that the generator adds the following technologies to leverage mobile development: [Cordova](http://cordova.apache.org/) granting access to native mobile features via JavaScript and the [Ionic Framework](http://ionicframework.com/) provides mobile capabilities by closing the gap between AngularJS, Cordova and Sass/CSS.
+From time to time in life, in every industry, it is important to take a step away from everything, look at everything that has been and at everything that is. Reevaluate the decision you made, focus, reflect and finally take a deep breath and move ahead with new energy. The past year and a half has been such time for contemplation regarding our HTML5 mobile app development.
 
-For a first contact with Generator-M-Ionic the [Readme](https://github.com/mwaylabs/generator-m-ionic) on our repository should get you started.
+## Looking back
 
-## Where are we coming from?
-Before we get into the details of the new release and the renaming of Generator-M to Generator-M-Ionic let's have a quick review of the generator's history and make sure we all know what we're talking about.
+Since 2011 we have been developing our own framework for HTML5 mobile apps at M-Way. It’s called TMP, which stands for [The-M-Project](https://github.com/mwaylabs/The-M-Project).
 
-After silently developing the first couple of version of Generator-M mainly as an internal tool, we decided that it is time to publish the first stable major release, version `1.0.0`, earlier this year. Thus giving back to the community our business depends on. Along the lines of these events we summarized all the developments that lead to the initiation of Generator-M in this [blog post](http://blog.mwaysolutions.com/2015/03/26/generator-m-the-state-of-html5-mobile-app-development-at-m-way/) from March 2015.
+In early versions, TMP was based on [jQuery](https://github.com/jquery/jquery) for DOM-Manipulation and [jQuery Mobile](https://github.com/jquery/jquery-mobile) to spice up the mobile apps’ user interfaces. It provided an easy to understand MVC (Model-View-Controller) architecture and even brought its own [Node.js](https://nodejs.org/)-based development tool called [Espresso](https://github.com/mwaylabs/Espresso). Espresso was able to scaffold TMP apps, run tasks, tests and deliver a live preview of your app without having to build it first. Note that this was long before [Yeoman](http://yeoman.io/) and [Grunt.js](http://gruntjs.com/), which are used perform similar tasks were released and became immensely popular in 2012/2013.
 
-Besides profiting ourselves from the more express development workflow the generator endorses, in passing we also realized it made us more valuable contributors to the open source community. In turn, this not just made us better developers but also more attractive and successful as a company. Embracing what's already there and building on top of that, made us more powerful and efficient rather than letting us fall prey to a culture of *not invented here (NIH)* and *yet another framework syndrome (YAFS)* with which we were finding ourselves reinventing the wheel on various occasions. A great article on why you should rather contribute than reinvent was published on [medium](https://medium.com/@tastejs/yet-another-framework-syndrome-yafs-cf5f694ee070) by Addy Osmani, Sindre Sorhus, Pascal Hartig, Stephen Sawchuk and Colin Eberhardt. If you haven't read it, I highly recommend it!
+When I first started working for M-Way in late 2013, I was intrigued with TMP and wrote a *first steps* [blog article](http://blog.the-m-project.org/2013/11/11/first-steps-with-the-m-project/) about my initial experiences with TMP. This was about the time when M-Way invested heavily in the development of TMP 2.0 Absinthe which dropped jQuery Mobile in favor of a built in ui-framework, dropped its own MVC architecture in favor of [Backbone](https://github.com/jashkenas/backbone) and dropped Espresso in favor of Yeoman and Grunt to make the framework’s technology stack and its look and feel more 2014-worthy. In the course of this, TMP 2.0 brought [a ton of new features and technologies](https://github.com/mwaylabs/The-M-Project/#whats-new) to the framework like: 2-way-data binding, routing, Sass support and even a component for automatic data model synchronization between clients and servers, called [Bikini](http://www.the-m-project.org/bikini.html).
 
-This philosophy still is a driving factor in the development of the generator and impacts nearly each and every one of our decisions on that matter. You'll see how, when we are comparing our generator to some of the alternatives which are out there, in a [new blog article](https://github.com/mwaylabs/generator-m-ionic/wiki/Why-the-generator%3F) which will be released in a couple of days.
+It sounded great, rich and exciting, we were all thrilled!
 
-## Where are we now?
-Since the release of version `1.0.0` we've been able to gain a lot of new insights through  feedback from the community and by heavily working with Generator-M ourselves. All this valuable experience shaped the development of the generator and besides giving it more features, added to a more and more concise and professional workflow.
+A few months into the development of TMP 2.0 the excitement stalled a little bit, things were taking longer than expected, the framework didn’t feel as easy-to-use and natural as it should and many of us HTML5 developers were peeking at other exciting alternatives out there. We needed to face questions of doubt:
 
-### Generator-M-Ionic
-In the course of this, we came to the conclusion that while initially we were not sure about the [Ionic framework](http://ionicframework.com/) being our mobile framework of choice for long enough to brand our generator after it, we now more than are. Ionic is definitely here to stay especially since they have received a second round of a [serious $2.6 million funding](http://techcrunch.com/2015/03/30/drifty-grabs-2-6-million-to-turn-web-developers-into-mobile-app-makers/) earlier this year. Of course there are other interesting choices for mobile HTML5 development for example [React Native](https://facebook.github.io/react-native/) which is being developed by Facebook and built on top of [React](http://facebook.github.io/react/) instead of AngularJS. However our [company's strategy](http://blog.mwaysolutions.com/2015/04/10/the-future-of-angular/) in regards to AngularJS is speaking a clear language. Moreover the community that has built around the generator and its code base now are so tightly and carefully integrated with AngularJS and Ionic that we would rather create a new generator than to force a new technology on this one. Needless to say we are always keeping our minds open for new tech and have our eyes closely on the market, we even may embrace React or a different strategy in the long run, but for this generator the era of rapid and hasty changes is over. Instead, we are closing that door in order to make this generator a more stable and reliable companion for you. Entirely focused on mobile app development with AngularJS and Ionic.
+- *”Maybe TMP 2.0 was trying to do too much?”*
+- *”Why are investing in a framework when there’s great alternatives out there?”*
+- *”Maybe M-Way simply can’t deliver the man-power that is needed in 2014 to stem the development of a framework that would compete against projects backed by giants like Google, Yahoo and Facebook?”*
 
-We think this is a commitment worthy of a name-change, so without any  further ado, Generator-M from now on is officially called:
+We were stuck.
 
-\* **drumrolls** \*
+## Taking a deep breath
 
-Generator-M-Ionic
+In early 2014 we were ready to face consequences, we benchmarked all the frameworks that seemed interesting to us against TMP 2.0. Benchmarking factors included: speed of development, performance, community size and activity, maintainability, flexibility, architecture, how easy it was to learn and how natural it felt to us as HTML5 developers. The result was speaking a clear language.
 
-\* **confetti** \*
+[Angular](https://angularjs.org/) blew us away in nearly all categories.
 
-Perhaps, this is a good moment to point out why we are so proud of Generator-M-Ionic in general and in particular its version `1.3.0`. And incidentally why you should start using it for your HTML5 mobile app development.
+It was painful to realize that we had run into a dead end with TMP 2.0, but it was necessary in order to escape paralysis.
 
-Version `1.3.0` brought substantial improvements, for a full list refer to the [release notes](https://github.com/mwaylabs/generator-m-ionic/releases). Besides that, here's a general overhaul of why we think, Generator-M-Ionic is the best tool for HTML5 mobile app development:
+## Moving ahead
 
-1. builds up your whole development stack in no time
-  - once set up, two commands suffice and you have a working app running on your phone or browser: type `yo m-ionic` and `gulp watch` to run in the browser
-  - for a quick first impression check out our [demo repository](https://github.com/mwaylabs/generator-m-ionic-demo)
-1. plugs together all the great and established web dev technologies
-  - introduces you to the ecosystem and enables you to use it (instead of hiding it from you, more on that in our [next blog article](https://github.com/mwaylabs/generator-m-ionic/wiki/Why-the-generator%3F).
-1. maintained by us and we use it every day, so it's not going to disappear. Thus:
-  - stays up to date with the most recent developments of the ecosystem - check out our [dependencies](https://david-dm.org/mwaylabs/generator-m-ionic)!
-  - we pay close attention to quality and the generator is extensively [tested](https://github.com/mwaylabs/generator-m-ionic/tree/master/test) with [mocha](https://mochajs.org/) and has [97% code coverage](https://coveralls.io/github/mwaylabs/generator-m-ionic) while adhering to our [ESLint](http://eslint.org/) JavaScript [style checks](https://github.com/mwaylabs/generator-m-ionic/blob/master/.eslintrc)
-  - since we use it as a production tool, you don't have to fear hasty and uneducated changes, while we do try to keep up with the latest development, we only do so if there's a good reason and after having thoroughly considered the change. For example our latest release made a switch from other technologies to [ESLint](http://eslint.org/) and [Browsersync](http://www.browsersync.io/) but there are [good reasons](https://github.com/mwaylabs/generator-m-ionic/releases/tag/1.3.0) for it and the upgrade cost is marginal
-1. has a growing and active community and user base
-  - earlier this week we reached [more than 800 downloads](https://github.com/mwaylabs/generator-m-ionic#generator-m-ionic) during the last month via [npm](https://www.npmjs.com/)
-  - there's a growing number of contributions in issues, discussions and pull requests
-  - in an average two weeks, the repository has roughly 400 visitors and about 2,800 views
-  - Github stars? - [See for yourself](https://github.com/mwaylabs/generator-m-ionic/stargazers)
-  - granted, this is good but not quite where we imagine it to be, but we focused on making our generator great before we now start making it more visible
-1. increasingly better documentation, guides and beginner tutorials (we're working on this too!)
-  - check out our new [guides](https://github.com/mwaylabs/generator-m-ionic#guides)
-2. provides a very elaborate and professional workflow from start to finish
-  - efficient development tools ensure painless coding, configuring and building: [livereloading in the browser](https://github.com/mwaylabs/generator-m-ionic#get-started), [a series of subgenerators](https://github.com/mwaylabs/generator-m-ionic#sub-generators) and  [a powerful collection of gulp tasks](https://github.com/mwaylabs/generator-m-ionic#more-gulp-tasks) with JavaScript, CSS and image minification, source-mapping and a lot of other great stuff
-  - a featureful [testing workflow](https://github.com/mwaylabs/generator-m-ionic#testing) with [Karma](http://karma-runner.github.io/), [Protractor](https://angular.github.io/protractor/#/) and [code style checks with ESLint](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/eslint.md)
-  - a fine-tuned integration with [Git](https://git-scm.com/) version control lays out the foundation for professional development. Learn how, in the Generator-M-Ionic's [Readme](https://github.com/mwaylabs/generator-m-ionic#git-integration), or check out why you should use it in this fantastic [Git blog series](http://blog.mwaysolutions.com/2015/07/16/a-short-introduction-to-git/) written by one of my colleagues which was even featured on [smashing magazine](http://www.smashingmagazine.com/2015/08/web-development-reading-list-100/#tools)
-1. last but definitely not least: delivers seasoned and established tools for building your apps in complex continuous integration processes:
-  - create different [configurable environments](https://github.com/mwaylabs/generator-m-ionic#gulp-environment) for production, testing or other environments
-  - fully flexible process of integrating [app icons and splash screens](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/icons_splash_screens.md)
-  - a [guide](https://github.com/mwaylabs/generator-m-ionic/blob/master/docs/guides/programmatically_change_configxml.md) on how to building different configurations of your apps in a continuous integration environment with `gulp config` and `buildVars`
+We accepted the fact that TMP 2.0 didn’t turn out the way we hoped, and that there are other, better-suited open-source alternatives out there.
 
-That's it! - Still hungry? So are we!
+We abandoned TMP 2.0 for our project business and made the transition to angular. Since our product team [had been using Angular since 2013](http://blog.mwaysolutions.com/2014/07/02/angularjs-in-action/), we were able to transfer knowledge quickly and build solid and performant apps at stunning speed.
 
-## Where are we heading?
-We still have many more [features and ideas](https://github.com/mwaylabs/generator-m-ionic/labels/feature) in the pipeline. A lot of [version 1.4](https://github.com/mwaylabs/generator-m-ionic/milestones/1.4.0), which will be the next release is about making the generator more accessible. We'll spawn a lot of documentation, guides and tutorials for that matter. Long-term, the support for [ES6](https://github.com/lukehoban/es6features) and [Angular 2](https://angular.io/) and [Ionic 2](http://blog.ionic.io/angular-2-ionic/) respectively are going to be big changes but both of these are probably not going to become relevant before the end of the year.
+In the course of switching to angular, we also realized that the decisions we made was not only one of productivity, it was also one of culture. By focussing on what’s already there we took a deeper dive into the community. We saw how other’s build software, how the communities work and most importantly we learned that it’s a lot more rewarding to contribute to an existing solutions than developing your own. It not only gives back to the community and saves you a lot of time, it also teaches you how to explain and develop your ideas and most of all it teaches you how to code better.
+Everybody benefits!
 
-If you want to get involved in the process or want to give Generator-M-Ionic a try our [Github repository](https://github.com/mwaylabs/generator-m-ionic) or our [Gitter chatroom](https://gitter.im/mwaylabs/generator-m-ionic) are the best places to start!
+In the next months we moved most of our projects to angular. Having spared a lot of time by not investing in our own technology anymore, we were able to cultivate our own processes, experimented with different components and develop a technology stack that we’re now more than confident with.
 
-Stay tuned for [next week's article](https://github.com/mwaylabs/generator-m-ionic/wiki/Why-the-generator%3F) which will dive into a comparison of Generator-M-Ionic and similar tools and give more insights behind the reasons why we started to develop the generator in the first place.
+## Reaping the rewards
 
-Happy coding and see you next week!
+A few months into 2014 the desire to experiment declined and we were finding ourselves craving to somehow capture our newly gained expertise, wisdom and culture. In order to keep ourselves structured and focused but also be free to keep innovating at the same time, we started a new, much more humble open source project.
+
+We present to you: **[Generator-M](https://github.com/mwaylabs/generator-m)**!
+
+## Generator-M
+
+This project channels almost everything we’ve learned in the past year and allows us to kick-start our projects in no-time. It manifests a great starting point for all our projects, provides best-practices, an awesome technology stack and great integration in our development and deployment process.
+
+We made it open source, because we want to give back to the community that we profit from on a daily basis and without which our jobs would be a lot harder and less fun and exciting.
+
+Only two weeks ago, we launched version 1.0.0, since we’re confident that the project now is at a state where others can benefit from it as well.
+
+Generator-M is a [Yeoman](http://yeoman.io/) generator and allows us to build mobile apps efficiently. We are constantly evolving our ideas and bring new features to the generator regularly. Nevertheless it’s important to us that while we keep experimenting with new ideas and technologies that the generator’s core concepts evolve with expertise and not with haste. It’s not a playground-project anymore and we want to make it a valuable resource for you!
+It provides patterns, features and technologies that are well established and were thoughtfully selected rather than the latest bleding-edge fancy-tech framework firework.
+
+If you want to experience how we at M-Way build our HTML5 mobile apps, head over to the Generator-M’s [Github repository](https://github.com/mwaylabs/generator-m) or [npm package](https://www.npmjs.com/package/generator-m) to see what all the fuzz is about. Github is also the best way to get in touch with us in case you want to share your concerns, ideas and comments about Generator-M or simply want to find out what we are planning for future releases.
+
+With this in mind: Happy Coding!
