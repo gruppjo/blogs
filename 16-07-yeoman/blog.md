@@ -60,7 +60,7 @@ We'd love to hear your feedback!
 
 ## Transitioning
 
-With Angular 2 [release candidates](http://angularjs.blogspot.de/2016/06/rc4-now-available.html?view=magazine) and Ionic 2 [betas](http://blog.ionic.io/ionic-2-beta-10-is-live/) now being released almost every week we're preparing to make our transition in a reasonable and educated fashion.
+With Angular 2 [release candidates](http://angularjs.blogspot.de/2016/06/rc4-now-available.html?view=magazine) and Ionic 2 [betas](http://blog.ionic.io/ionic-2-beta-10-is-live/) now being released almost every week [we're preparing to make our transition](http://blog.mwaysolutions.com/2016/03/23/preparing-for-ionic-2-and-angular-2/) in a reasonable and educated fashion.
 
 ![Angular 2 Ionic 2](img/angular2_ionic2.png)
 
