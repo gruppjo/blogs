@@ -13,7 +13,11 @@ As we're transitioning to the next generation technology stack with Typescript, 
 
 The roots of [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic) reach back more than two years when my team and I ([@gruppjo](https://github.com/gruppjo)) at [M-Way Solutions](http://www.mwaysolutions.com/) decided to move our HTML5 mobile app development stack to AngularJS and Ionic in [early 2014](http://blog.mwaysolutions.com/2015/03/26/generator-m-the-state-of-html5-mobile-app-development-at-m-way/). Since then [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic) has grown into a full-fledged collection of development tools for building large-scale enterprise apps with [Cordova](http://cordova.apache.org/), [AngularJS](https://angularjs.org/) and [Ionic](http://ionicframework.com/).
 
-Built on top of the [Yeoman Ecosystem](http://yeoman.io/) with [Gulp](http://gulpjs.com/), [Bower](https://bower.io/) and [npm](https://www.npmjs.com/), Generator-M-Ionic offers highly efficient workflows for building apps from start to finish by wiring together a complex technology stack and by providing workflows for all important aspects of professional cross-platform HTML5 app development with Cordova, AngularJS and Ionic. Namely:
+Built on top of the [Yeoman Ecosystem](http://yeoman.io/) with [Gulp](http://gulpjs.com/), [Bower](https://bower.io/) and [npm](https://www.npmjs.com/), Generator-M-Ionic offers highly efficient workflows for building apps from start to finish by wiring together a complex technology stack and by providing workflows for all important aspects of professional cross-platform HTML5 app development with Cordova, AngularJS and Ionic.
+
+![Generator-M-Ionic technology stack](img/tech_stack.png)
+
+Here's a brief overview of Generator-M-Ionic's capabilities:
 
 ##### Code Generation
 - `yo m-ionic` sets up a fine-tuned project including:
@@ -57,6 +61,8 @@ We'd love to hear your feedback!
 ## Transitioning
 
 With Angular 2 [release candidates](http://angularjs.blogspot.de/2016/06/rc4-now-available.html?view=magazine) and Ionic 2 [betas](http://blog.ionic.io/ionic-2-beta-10-is-live/) now being released almost every week we're preparing to make our transition in a reasonable and educated fashion.
+
+![Angular 2 Ionic 2](img/angular2_ionic2.png)
 
 The Angular 1 & Ionic 1 ecosystem is huge and many companies like ourselves, or organizations who use our generator have a large number of apps and assets written for this stack. Therefore the Angular 1 / Ionic 1 stack will continue to play a major role for a long time to come, before the majority of the market will have made its transition.
 
