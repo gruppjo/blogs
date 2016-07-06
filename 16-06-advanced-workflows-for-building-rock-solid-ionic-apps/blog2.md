@@ -224,4 +224,4 @@ Feedback, ideas, comments regarding this blog post or any of the features discus
 ### Credits
 Author: [Jonathan Grupp](https://github.com/gruppjo)  
 Headline illustrations: [Christian Kahl](http://www.art-noir.net/)  
-Special thanks to Volker Hahn & Mathias Maier
+Special thanks to Volker Hahn, Mathias Maier & Tim Lancina
