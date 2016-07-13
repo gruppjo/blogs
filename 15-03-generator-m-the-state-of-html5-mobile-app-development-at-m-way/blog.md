@@ -1,4 +1,4 @@
-> Originally published on March 26, 2015 at the [M-Way Solutions Blog](http://blog.mwaysolutions.com/2015/03/26/generator-m-the-state-of-html5-mobile-app-development-at-m-way/).
+> Originally published March 26, 2015 on the [M-Way Solutions Blog](http://blog.mwaysolutions.com/2015/03/26/generator-m-the-state-of-html5-mobile-app-development-at-m-way/).
 
 # Generator-M: the state of HTML5 mobile app development at M-Way
 

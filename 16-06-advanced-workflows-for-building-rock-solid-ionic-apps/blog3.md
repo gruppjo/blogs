@@ -1,3 +1,6 @@
+> Originally published July 7, 2016 on the [Ionic Blog](http://blog.ionic.io/advanced-workflows-for-building-rock-solid-ionic-apps-part-3/).
+
+
 ### Advanced workflows for building rock-solid Ionic apps. Part 3: Orbit
 
 ![Advanced workflows for building rock-solid Ionic apps. Part 3: Orbit](img/blog-03.png)

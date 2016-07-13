@@ -1,3 +1,6 @@
+> Originally published July 5, 2016 on the [Ionic Blog](http://blog.ionic.io/advanced-workflows-for-building-rock-solid-ionic-apps-part-1/) in a slightly modified version.
+
+
 ### Advanced workflows for building rock-solid Ionic apps. Part 1: Playground
 
 ![Advanced workflows for building rock-solid Ionic apps. Part 1: Playground](img/blog-01.png)

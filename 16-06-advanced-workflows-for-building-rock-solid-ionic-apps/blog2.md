@@ -1,3 +1,6 @@
+> Originally published July 6, 2016 on the [Ionic Blog](http://blog.ionic.io/advanced-workflows-for-building-rock-solid-ionic-apps-part-2/) in a slightly modified version.
+
+
 ### Advanced workflows for building rock-solid Ionic apps. Part 2: Mountain
 
 ![Advanced workflows for building rock-solid Ionic apps. Part 2: Mountain](img/blog-02.png)
@@ -105,7 +108,7 @@ Before we don't add some nice [Cordova Plugins](http://ngcordova.com/docs/plugin
 
 Your project comes with a local installation of the latest version of the [Cordova CLI](https://cordova.apache.org/docs/en/latest/guide/cli/index.html) which you can invoke through Gulp. We install it locally so you don't have to worry about which project you set up with which version. It's always the one it got set up with. The syntax is almost exactly the same as using a global CLI installation. So for instance to install the Cordova camera plugin run:
 ```sh
-gulp --cordova "plugin add org.apache.cordova.camera --save"
+gulp --cordova "plugin add cordova-plugin-camera --save"
 ```
 You want to develop for Windows as well? Install the appropriate [Cordova Platform requirements](https://cordova.apache.org/docs/en/latest/guide/platforms/win8/index.html) and type:
 ```sh
