@@ -38,12 +38,12 @@ This post is part of a series on kick-starting your development with Ionic and G
   - preparations
   - generating your first app
   - learn about file structure and git integration
-- Part 2: Climb to the top of serious-app-development-mountain
+- [Part 2](blog2.md): Climb to the top of serious-app-development-mountain
   - quality assurance and testing
   - adding Angular components, Sass, Cordova Plugins and bower packages
   - run your app in your browser and on a device using livereload
   - integrate into different ecosystems like [Ionic Platform](http://ionic.io/) using the [Ionic CLI](http://ionicframework.com/docs/cli/)
-- Part 3: Lift your app into adventure-orbit
+- [Part 3](blog3.md): Lift your app into adventure-orbit
   - ease through backend issues with environments and a CORS proxy
   - learn about powerful build tools like resource sets and build vars
   - some tips regarding continuous integration and delivering your app
@@ -154,7 +154,7 @@ git commit -m "project setup with yo m-ionic and gulp watch"
 **Side note:** I'm using double quotes on any terminal related strings, because they're safe on all systems. On OS X or Linux, using single quotes is just fine.
 
 ### Nice!
-You've taken your first steps with [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic), learned about file structure, `gulp watch` and Git integration! Take your development to the next level in part 2 of our series covering quality assurance, adding a variety of ingredients to your app and integrating into different ecosystems like [Ionic Platform](http://ionic.io/).
+You've taken your first steps with [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic), learned about file structure, `gulp watch` and Git integration! Take your development to the next level in [part 2](blog2.md) of our series covering quality assurance, adding a variety of ingredients to your app and integrating into different ecosystems like [Ionic Platform](http://ionic.io/).
 
 ### Get in touch
 Feedback, ideas, comments regarding this blog post or any of the features discussed here are very welcome in either the comments section below, at our [Generator-M-Ionic's Github repository](https://github.com/mwaylabs/generator-m-ionic) or the [Generator-M-Ionic Gitter Chat](https://gitter.im/mwaylabs/generator-m-ionic).

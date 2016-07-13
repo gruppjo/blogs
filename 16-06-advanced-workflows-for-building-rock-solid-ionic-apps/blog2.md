@@ -5,7 +5,7 @@
 
 ![Advanced workflows for building rock-solid Ionic apps. Part 2: Mountain](img/blog-02.png)
 
-Welcome to serious-app-development-mountain! In the second part of our series on developing Ionic apps with [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic) you'll be learning about wonderful ingredients like testing, sub-generators, plugins and ecosystem integration into platforms like the [Ionic Platform](http://ionic.io/). We are building on top of the project we created in part 1 of this series.
+Welcome to serious-app-development-mountain! In the second part of our series on developing Ionic apps with [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic) you'll be learning about wonderful ingredients like testing, sub-generators, plugins and ecosystem integration into platforms like the [Ionic Platform](http://ionic.io/). We are building on top of the project we created in [part 1](blog1.md) of this series.
 
 
 ### Cross-platform HTML5 app development is hard
@@ -219,7 +219,7 @@ I bet you start feeling like a real pro already. And you should! We're getting c
 The [Ecosystems section of our Guides](https://github.com/mwaylabs/generator-m-ionic#ecosystems) lists some of these platforms with nice set up guides, generated sample code and templates. Most of the work we've done for you already, so focussing on building your app is easier than ever.
 
 ### Congratulations!
-You have conquered app-development-mountain and learned how to season your app with a lot of interesting spices: sub-generators, Sass, plugins, ecosystems and bower packages. Be proud! Ascend your development skills to out-of-this-world levels in part 3 of this series by owning environments, proxies and build tools, handling app icons, splash screens, continuous integration and build variables. And at the very end, see what the future of Generator-M-Ionic has to offer for you!
+You have conquered app-development-mountain and learned how to season your app with a lot of interesting spices: sub-generators, Sass, plugins, ecosystems and bower packages. Be proud! Ascend your development skills to out-of-this-world levels in [part 3](blog3.md) of this series by owning environments, proxies and build tools, handling app icons, splash screens, continuous integration and build variables. And at the very end, see what the future of Generator-M-Ionic has to offer for you!
 
 ### Get in touch
 Feedback, ideas, comments regarding this blog post or any of the features discussed here are very welcome in either the comments section below, at our [Generator-M-Ionic's Github repository](https://github.com/mwaylabs/generator-m-ionic) or the [Generator-M-Ionic Gitter Chat](https://gitter.im/mwaylabs/generator-m-ionic).

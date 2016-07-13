@@ -1,11 +1,11 @@
-> Originally published July 7, 2016 on the [Ionic Blog](http://blog.ionic.io/advanced-workflows-for-building-rock-solid-ionic-apps-part-3/).
+> Originally published July 7, 2016 on the [Ionic Blog](http://blog.ionic.io/advanced-workflows-for-building-rock-solid-ionic-apps-part-3/) in a slightly modified version.
 
 
 ### Advanced workflows for building rock-solid Ionic apps. Part 3: Orbit
 
 ![Advanced workflows for building rock-solid Ionic apps. Part 3: Orbit](img/blog-03.png)
 
-The air is getting a little thin in app-develop-orbit! Luckily part 3 of this series about developing Ionic apps with Generator-M-Ionic comes with a sweet oxygen mask full of life-saving elements: environments, CORS proxies and build tools for app icons, splash screens, build variables and app delivery. Take a deep deep breath and extend the project we made space-ready in part 2.
+The air is getting a little thin in app-develop-orbit! Luckily part 3 of this series about developing Ionic apps with Generator-M-Ionic comes with a sweet oxygen mask full of life-saving elements: environments, CORS proxies and build tools for app icons, splash screens, build variables and app delivery. Take a deep deep breath and extend the project we made space-ready in [part 2](blog2.md).
 
 ### Gulp environments
 So you have your app all set up, added plugins and other components while implementing your app logic and at some point you will probably want to exchange data with an external backend.
