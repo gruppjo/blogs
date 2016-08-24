@@ -4,12 +4,15 @@ set -e
 
 # install dependencies
 echo -e '\n####################### INSTALL DEPENDENCIES #######################\n'
-echo -e 'installing npm packages'
-npm prune
-npm install
+echo -e 'install globally required packages'
+npm i -g bower gulp
 echo -e 'installing bower packages'
 bower prune
 bower install
+echo -e 'installing npm packages'
+npm prune
+npm install
+
 
 # configure project
 echo -e '\n#######################    CONFIGURE PROJECT     #######################\n'
