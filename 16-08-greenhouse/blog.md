@@ -71,15 +71,51 @@ And name it `GH_POST_CLONE_SCRIPT`:
   <i>Greenhouse CI: GH_POST_CLONE_SCRIPT</i>
 </p>
 
-This will tell the Greenhouse CI when and how to prepare your project for building according to the `greenhouse.sh` script of your project.
+
+
+## Configure Greenhouse Build
+Now that we told the Greenhouse CI when and how to prepare your project for building according to the `greenhouse.sh` script of your project, we can now continue and configure the `Build`.
+
+
+First select the branch of your repository that you want to build.
+<p align="center">
+  <img width="800" src="res/6_gh_build.png"><br>
+  <i>Greenhouse CI: Build Configuration - Select Branch</i>
+</p>
+
+Greenhouse will then proceed to prepare and discover your project. This might take a while, because it will clone your project, checkout the branch and perform a complete `npm install`, `bower install` and a first `gulp build` to discover which platforms you're building for.
+
+When this is finished you'll be able to finish your build configuration. If you're building for iOS, you will have to upload your provisioning profile as well as signing certificate along with its password.
+>Need help with the [provisioning profile](http://docs.greenhouseci.com/docs/building-ios-apps#section-provisioning-profile) and the [signing certificate](http://docs.greenhouseci.com/docs/building-ios-apps#section-signing-certificate)?
+
+<p align="center">
+  <img width="800" src="res/6.1_gh_build.png"><br>
+  <i>Greenhouse CI: Build Configuration - Complete configuration</i>
+</p>
+
+Hitting save will trigger the first full build of your app which will produce the `.ipa` and `.apk` files of your app for iOS and Android respectively.
+
+## Building
+
+You'll be navigated back to the project overview. Pressing `View build` on your project will take you to an overview of your builds for that project.
+<p align="center">
+  <img width="800" src="res/7_gh_building.png"><br>
+  <i>Greenhouse CI: Project overview - building</i>
+</p>
+
+For now there's only one, because you just started your very first complete build.
+
+<p align="center">
+  <img width="800" src="res/7.1_gh_building.png"><br>
+  <i>Greenhouse CI: Build Configuration - Complete configuration</i>
+</p>
+
 
 
 # Notes
 
-4. Additionally, if you're building for iOS you'll need an Apple [signing certificate](https://developer.apple.com/support/certificates/) and [provisioning profile](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/CreatingYourTeamProvisioningProfile/CreatingYourTeamProvisioningProfile.html).
 
-
-Granted, the Greenhouse CI integration for Generator-M-Ionic project is not ideal yet, but it works for now. Nevertheless we're looking to improve the whole process and make it more slick!
+Granted, the Greenhouse CI integration for Generator-M-Ionic project is a little time-consuming at times and not ideal yet, but it works for now. Nevertheless we're looking to improve the whole process and make it more slick! Feedback is very welcome!
 
 ## Further
 For further information on how to use Relution, head over to the [relution.io](https://www.relution.io) and in order to learn more about how to use the Greenhouse CI head over to their documentation on [docs.greenhouseci.com/docs](http://docs.greenhouseci.com/docs).
