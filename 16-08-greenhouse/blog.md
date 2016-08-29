@@ -103,13 +103,28 @@ You'll be navigated back to the project overview. Pressing `View build` on your 
   <i>Greenhouse CI: Project overview - building</i>
 </p>
 
-For now there's only one, because you just started your very first complete build.
+For now there's only one build, because you just started your very first complete build.
 
 <p align="center">
   <img width="800" src="res/7.1_gh_building.png"><br>
-  <i>Greenhouse CI: Build Configuration - Complete configuration</i>
+  <i>Greenhouse CI: Build overview</i>
 </p>
 
+By clicking on it you can see details of your build as well as a live log of the actions that are currently being performed.
+
+<p align="center">
+  <img width="800" src="res/7.2_gh_building.png"><br>
+  <i>Greenhouse CI: Building - live log</i>
+</p>
+
+After your project has finished building you can download your build artifacts containing the `.ipa` and `.apk` files from the `Overview` tab.
+
+<p align="center">
+  <img width="800" src="res/7.3_gh_building.png"><br>
+  <i>Greenhouse CI: Building - download build artifacts</i>
+</p>
+
+Manually connecting and installing the apps on the devices is a little cumbersome and mostly not desirable. With [Relution](https://www.relution.io/) distributing and installing your apps is only a button press away.
 
 
 # Notes
