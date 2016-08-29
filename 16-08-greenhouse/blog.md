@@ -1,11 +1,11 @@
 # Greenhouse CI & Relution
-Learn how to build and distribute your Ionic app that you've set up with [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic) in this 20 minute guide using only free to use features. Build your app in the cloud using [Greenhouse CI](https://app.greenhouseci.com) and deliver them straight to your team members' and customers' devices with [Relution](https://www.relution.io/)!
+Learn how to build and distribute your Ionic app that you've set up with [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic) in this 30 minute guide using only free to use features. Build your app in the cloud using [Greenhouse CI](https://app.greenhouseci.com) and deliver them straight to your team members' and customers' devices with [Relution](https://www.relution.io/)! For every push to your repository Greenhouse will build and publish a new version of your app that will then automatically be available through Relution to everyone who needs it. A smooth and stress-free workflow.
 
 ## Preparations
 What you need:
 1. A working **[Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic) project**
 2. A **[Relution](https://www.relution.io/) Account** - the [free subscription](https://www.relution.io/en/pricing/) suffices
-3. A **[Greenhouse CI](https://app.greenhouseci.com) Account** - [free plan](https://greenhouseci.com/pricing.html) is plenty
+3. A **[Greenhouse CI](https://app.greenhouseci.com) Account** - [free plan](https://greenhouseci.com/pricing.html) is plenty here as well
 
 <p align="center">
   <img width="800" src="res/1_relution_signup.png"><br>
@@ -117,17 +117,55 @@ By clicking on it you can see details of your build as well as a live log of the
   <i>Greenhouse CI: Building - live log</i>
 </p>
 
-After your project has finished building you can download your build artifacts containing the `.ipa` and `.apk` files from the `Overview` tab.
+After your project has finished building you can download your build artefacts containing the `.ipa` and `.apk` files from the `Overview` tab.
 
 <p align="center">
   <img width="800" src="res/7.3_gh_building.png"><br>
-  <i>Greenhouse CI: Building - download build artifacts</i>
+  <i>Greenhouse CI: Building - download build artefacts</i>
 </p>
 
-Manually connecting and installing the apps on the devices is a little cumbersome and mostly not desirable. With [Relution](https://www.relution.io/) distributing and installing your apps is only a button press away.
+Manually connecting and installing the apps on the devices is a little cumbersome and mostly not desirable. With [Relution](https://www.relution.io/) distributing your app to everybody who needs it and installing it is only a button press away.
 
+## Publishing to Relution
+In order to configure your app for distribution with Relution, head back to your project's overview and press that little gear icon towards the top-right.
 
-# Notes
+<p align="center">
+  <img width="800" src="res/8_rel_conf.png"><br>
+  <i>Greenhouse CI: Project overview, configure via gear icon</i>
+</p>
+
+You'll be taken to the project configuration that you know from earlier. Go to the previously unavailable `Publishing` section and select `Relution`. Provide your username, password (was sent to you via email) the Relution Server URL: `https://live.relution.io/` and then hit `save`!
+
+<p align="center">
+  <img width="800" src="res/8.1_rel_conf.png"><br>
+  <i>Greenhouse CI: Project overview, configure via gear icon</i>
+</p>
+
+Go back to your project's overview and hit that `Build` button.
+
+<p align="center">
+  <img width="800" src="res/8_rel_conf.png"><br>
+  <i>Greenhouse CI: Project overview, build!</i>
+</p>
+
+This will start building your app just as before. Only at the end it will then publish your app to Relution making it easily available for the testing and delivery purposes which we will try out now! You can see that your build is being published at the end of the live log of your build.
+
+<p align="center">
+  <img width="800" src="res/9_rel_publish.png"><br>
+  <i>Greenhouse CI: publishing to Relution</i>
+</p>
+
+When you log into [live.relution.io](https://live.relution.io/) using your browser and navigate to `Apps > App Store`, you'll find the Android and iOS app displayed.
+<p align="center">
+  <img width="800" src="res/9.1_rel_publish.png"><br>
+  <i>Greenhouse CI: publishing to Relution</i>
+</p>
+
+## Install your app via Relution
+
+## New versions of your app
+
+## Notes
 
 
 Granted, the Greenhouse CI integration for Generator-M-Ionic project is a little time-consuming at times and not ideal yet, but it works for now. Nevertheless we're looking to improve the whole process and make it more slick! Feedback is very welcome!
