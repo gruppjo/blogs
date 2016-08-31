@@ -13,28 +13,27 @@ What you need:
 </p>
 
 ## Prepare your project
-There's three options here:
+There's three alternatives here:
 - **Demo project**: Use the Generator-M-Ionic [Demo project on Github](https://github.com/mwaylabs/generator-m-ionic-demo) for now. You'll just need to copy the URL, no cloning with Git or anything: `https://github.com/mwaylabs/generator-m-ionic-demo`
 - **New project**: Setup your own [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic) project. Checkout the [documentation](https://github.com/mwaylabs/generator-m-ionic#generator-m-ionic) to get started.
-- **Existing project**: Use an existing project that you've set up with [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic)
+- **Existing project**: Use an existing project that you've set up with [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic). It needs to be in a repository that is available on the web.
 
-In any case your Generator-M-Ionic project needs the `greenhouse.sh` build script. The demo project already contains this, if you chose this option, you'll have to do nothing. If you create a new project however, you need to select the `Greenhouse & Relution` option in the [Ecosystems Question](./questions.md#ecosystems). And for your existing project you can run the `greenhouse` sub-generator:
+In any case your Generator-M-Ionic project needs the `greenhouse.sh` build script. The demo project already contains this, if you chose this option, you'll have to do nothing. If you create a new project however, you need to select the `Greenhouse & Relution` option in the [Ecosystems Question](./questions.md#ecosystems). And for your existing project you can run the `greenhouse` sub-generator which will generate the `greenhouse.sh` for you:
 ```sh
 yo m-ionic:greenhouse
 ```
-This will generate the `greenhouse.sh` for you.
 
 ## Build your app in Greenhouse
-After you've prepared your project, created your Relution and Greenhouse accounts and signed into [app.greenhouseci.com](https://app.greenhouseci.com/#/login) and [live.relution.io](https://live.relution.io/relution/portal/#/login) using your browser, you can now create a new app in Greenhouse CI.
+After you've prepared your project, created your Relution and Greenhouse accounts and signed into [app.greenhouseci.com](https://app.greenhouseci.com/#/login) and [live.relution.io](https://live.relution.io/relution/portal/#/login) using your browser, you can now create a new app in Greenhouse.
 
 #### Create a new Greenhouse app
-In the Greenhouse CI project overview, add a new app by clicking the `add a new app` button.
+In the Greenhouse project overview, add a new app by clicking the `add a new app` button.
 <p align="center">
   <img width="350" src="res/2_gh_create_app.png"><br>
   <i>In your browser: create a new app on [app.greenhouseci.com](https://app.greenhouseci.com/#/login)</i>
 </p>
 
-Once you've done that, supply the URL to the repository you want to build in the initial project configuration as seen below. The URL for the [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic) Demo project is `https://github.com/mwaylabs/generator-m-ionic-demo`.
+Once you've done that, supply the URL to the repository you want to build as part of the initial project configuration as seen below. The URL for the [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic) Demo project is `https://github.com/mwaylabs/generator-m-ionic-demo`.
 
 <p align="center">
   <img width="800" src="res/3_gh_project_conf.png"><br>
@@ -45,7 +44,7 @@ Alternatively if you want to build your own project provide any other URL to a p
 
 
 #### Configure Greenhouse Environment
-When you hit `continue`, the setup will jump right to the `Build` configuration. Navigate back to `Environment` to tell Greenhouse how to build your Generator-M-Ionic app:
+When you hit `continue`, the setup will jump right to the `Build` configuration. Navigate back to `Environment`. This part is needed to tell Greenhouse how to build your Generator-M-Ionic app:
 
 <p align="center">
   <img width="800" src="res/4_gh_environment.png"><br>
@@ -74,7 +73,7 @@ And name it `GH_POST_CLONE_SCRIPT`:
 
 
 ## Configure Greenhouse Build
-Now that we told the Greenhouse CI when and how to prepare your project for building according to the `greenhouse.sh` script of your project, we can now continue and configure the `Build`.
+Now that we told the Greenhouse CI how to prepare your project for building by providing the `greenhouse.sh` script of your project, we can now continue and configure the actual `Build`.
 
 
 First select the branch of your repository that you want to build.
@@ -85,7 +84,7 @@ First select the branch of your repository that you want to build.
 
 Greenhouse will then proceed to prepare and discover your project. This might take a while, because it will clone your project, checkout the branch and perform a complete `npm install`, `bower install` and a first `gulp build` to discover which platforms you're building for.
 
-When this is finished you'll be able to finish your build configuration. If you're building for iOS, you will have to upload your provisioning profile as well as signing certificate along with its password.
+When this is finished you'll be able to complete your build configuration. If you're building for iOS, you will have to upload your provisioning profile as well as signing certificate along with its password.
 >Need help with the [provisioning profile](http://docs.greenhouseci.com/docs/building-ios-apps#section-provisioning-profile) and the [signing certificate](http://docs.greenhouseci.com/docs/building-ios-apps#section-signing-certificate)?
 
 <p align="center">
@@ -117,7 +116,7 @@ By clicking on it you can see details of your build as well as a live log of the
   <i>Greenhouse CI: Building - live log</i>
 </p>
 
-After your project has finished building you can download your build artefacts containing the `.ipa` and `.apk` files from the `Overview` tab.
+Now that your project has finished building you can download your build artefacts containing the `.ipa` and `.apk` files from the `Overview` tab.
 
 <p align="center">
   <img width="800" src="res/7.3_gh_building.png"><br>
@@ -134,44 +133,44 @@ In order to configure your app for distribution with Relution, head back to your
   <i>Greenhouse CI: Project overview, configure via gear icon</i>
 </p>
 
-You'll be taken to the project configuration that you know from earlier. Go to the previously unavailable `Publishing` section and select `Relution`. Provide your username, password (was sent to you via email) the Relution Server URL: `https://live.relution.io/` and then hit `save`!
+You'll be taken to the project configuration that you know from earlier. Go to the previously unavailable `Publishing` section and select `Relution`. Provide your username, password -this was sent to you via email- and the Relution Server URL: `https://live.relution.io/`. Then hit `save`!
 
 <p align="center">
   <img width="800" src="res/8.1_rel_conf.png"><br>
   <i>Greenhouse CI: Project overview, configure via gear icon</i>
 </p>
 
-Go back to your project's overview and hit that `Build` button.
+Go back to your project's overview and hit the `Build` button.
 
 <p align="center">
   <img width="800" src="res/8_rel_conf.png"><br>
   <i>Greenhouse CI: Project overview, build!</i>
 </p>
 
-This will start building your app just as before. Only at the end it will then publish your app to Relution making it easily available for the testing and delivery purposes which we will try out now! You can see that your build is being published at the end of the live log of your build.
+This will start building your app just as before. Only at the end it will no publish your app to Relution making it easily available for testing and delivery purposes! You can see that your build is being published to Relution at the end of the live log of your build.
 
 <p align="center">
   <img width="800" src="res/9_rel_publish.png"><br>
   <i>Greenhouse CI: publishing to Relution</i>
 </p>
 
-When you log into [live.relution.io](https://live.relution.io/) using your browser and navigate to `Apps > App Store`, you'll find the Android and iOS app displayed.
+When you log into [live.relution.io](https://live.relution.io/) using your browser and then navigate to `Apps > App Store`, you'll find the Android and iOS apps you just built.
 <p align="center">
   <img width="800" src="res/9.1_rel_publish.png"><br>
   <i>Greenhouse CI: publishing to Relution</i>
 </p>
 
-Now the only thing left to do is to get your app on your devices. We'll get on that right now.
+The only thing left to do now, is to get your app on your devices. The Relution app comes to the rescue.
 
 ## Install your app via the Relution app
-The Relution app is found in the Android Play Store and the iOS App Store and you can think of your own personal app store for managing your own apps.
+The Relution app is found in the Android Play Store and the iOS App Store and you can think of it as your own personal app store for managing apps.
 
 <p align="center">
   <img width="300" src="res/10_rel_install.jpg"><br>
   <i>Install the Relution app</i>
 </p>
 
-After you've installed it, login using your credentials -your password was sent to you via E-Mail.
+After you've installed it, login using your credentials.
 
 <p align="center">
   <img width="300" src="res/11_rel_login.jpg"><br>
@@ -202,7 +201,7 @@ And tada! Your app is ready to be used on your device!
 ## New versions of your app
 Now every time code changes are pushed to the master branch of your repository, Greenhouse will fully build your app, publish it to Relution and from there it is delivered straight to everybody's device. Opening the Relution app and installing the new version is the only thing left to do.
 
-With Relution you can register different devices and different users to your organization and assign them different roles so they can see different apps at different stages. For instance apps in `Development` are only visible to the development team until they approve a specific version for `Review` by other stakeholders, who can then in turn approve the app which will move that app to `Production` and make it available for the users.
+With Relution you can register different devices and different users to your organization and assign them different roles so they can see different apps at different stages. For instance apps in `Development` are only visible to the development team until they approve a specific version for `Review` by other stakeholders, who can then in turn approve the app which will move that app to `Production` and make it available for the end-users.
 
 ## Further
 For further information on how to use Relution, head over to the [relution.io documentation](https://live.relution.io/relution/docs/manual.html) and in order to learn more about how to use the Greenhouse CI head over to their documentation on [docs.greenhouseci.com/docs](http://docs.greenhouseci.com/docs).
