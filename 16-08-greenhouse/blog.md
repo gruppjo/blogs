@@ -161,14 +161,51 @@ When you log into [live.relution.io](https://live.relution.io/) using your brows
   <i>Greenhouse CI: publishing to Relution</i>
 </p>
 
-## Install your app via Relution
+Now the only thing left to do is to get your app on your devices. We'll get on that right now.
+
+## Install your app via the Relution app
+The Relution app is found in the Android Play Store and the iOS App Store and you can think of your own personal app store for managing your own apps.
+
+<p align="center">
+  <img width="300" src="res/10_rel_install.jpg"><br>
+  <i>Install the Relution app</i>
+</p>
+
+After you've installed it, login using your credentials -your password was sent to you via E-Mail.
+
+<p align="center">
+  <img width="300" src="res/11_rel_login.jpg"><br>
+  <i>Relution app: login</i>
+</p>
+
+Using the side menu, navigate to the `Development` section.
+<p align="center">
+  <img width="300" src="res/12_rel_menu.jpg"><br>
+  <i>Relution app: menu</i>
+</p>
+
+This contains all your apps that are currently in the `Development` stage. In our case, this is only the one we just built.
+
+<p align="center">
+  <img width="300" src="res/13_rel_app.jpg"><br>
+  <i>Relution app: apps in Development</i>
+</p>
+
+And tada! Your app is ready to be used on your device!
+
+<p align="center">
+  <img width="300" src="res/14_rel_device.jpg"><br>
+  <i>Relution app: your app was installed</i>
+</p>
+
 
 ## New versions of your app
+Now every time code changes are pushed to the master branch of your repository, Greenhouse will fully build your app, publish it to Relution and from there it is delivered straight to everybody's device. Opening the Relution app and installing the new version is the only thing left to do.
 
-## Notes
-
-
-Granted, the Greenhouse CI integration for Generator-M-Ionic project is a little time-consuming at times and not ideal yet, but it works for now. Nevertheless we're looking to improve the whole process and make it more slick! Feedback is very welcome!
+With Relution you can register different devices and different users to your organization and assign them different roles so they can see different apps at different stages. For instance apps in `Development` are only visible to the development team until they approve a specific version for `Review` by other stakeholders, who can then in turn approve the app which will move that app to `Production` and make it available for the users.
 
 ## Further
-For further information on how to use Relution, head over to the [relution.io](https://www.relution.io) and in order to learn more about how to use the Greenhouse CI head over to their documentation on [docs.greenhouseci.com/docs](http://docs.greenhouseci.com/docs).
+For further information on how to use Relution, head over to the [relution.io documentation](https://live.relution.io/relution/docs/manual.html) and in order to learn more about how to use the Greenhouse CI head over to their documentation on [docs.greenhouseci.com/docs](http://docs.greenhouseci.com/docs).
+
+## Notes
+Granted, the Greenhouse CI integration for Generator-M-Ionic project is a little time-consuming at times and not ideal yet, but it works for now. Nevertheless we're looking to improve the whole process and make it more slick! Feedback is very welcome!

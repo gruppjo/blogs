@@ -8,7 +8,8 @@
 - that would allow the certificates to be configured immediately
 - allow to configure publishing before second build
 - speed up `npm i && bower i` by not discarding them every time, or npm caching on greenhouse servers
-- which Cordova version is used? make it selectable or configurable using script
+- `gulp --cordova` - which Cordova version is used? make it selectable or configurable using script
+- repeat last build
 
 ## Relution
 - Introduction Videos/Documentation - User Centric
