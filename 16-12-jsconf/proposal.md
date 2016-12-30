@@ -1,6 +1,10 @@
-# Professional workflows for top-notch JavaScript and Front-End Engineers in 2017
+# Professional workflows for JavaScript and Front-End Engineers
 
-Since the genesis of [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate) and the heyday of [Grunt](http://gruntjs.com/), tooling for JavaScript and Web Development has come a long way.
+- Call for speakers (Deadline Jan 10) - http://2017.jsconf.eu/call-for-speakers/
+- 2015 speakers - http://2015.jsconf.eu/speakers/
+- Word count (not much more than 170) - https://wordcounttools.com/
+
+## Prose
 
 In the last years, questions of how we setup, code, quality-assure, maintain, build and deliver our projects, has sparked the creation of countless open source projects. Different seed projects, (Yeoman) generators, CLIs, task runners, snippet creators and sub-generators all aim to take some work off of our shoulders.
 
@@ -14,8 +18,26 @@ My goal is to motivate you to  Motivation, why you should care about good workfl
 
 In this talk I try to help you understand and rethink and inspire.
 
-I give lively examples and little anecdotes stemming from my day-to-day work as a Senior Front-End Engineer and from my experience creating and maintaining Generator-M-Ionic, a Yeoman .
+I give lively examples and little anecdotes stemming from my day-to-day work as a Senior Front-End Engineer and from my experience creating and maintaining Generator-M-Ionic, a Yeoman.
 
+## Key Facts
+
+### Why should you care about good workflows?
+Good workflows can boost your team's productivity and spark useful discussions, they can professionalize your projects, even your whole development approach. They can positively impact development speed, code quality, reliability and many other aspects of your project: for instance how you setup, maintain, build and deliver your projects.
+
+Other topics:
+- continuous integration
+- dependency management
+
+### Who is this talk targeted at?
+Seasoned Front-End and JavaScript Engineers, and aspiring ones. Everybody interested in boosting their team's or their own productivity. Maybe even project managers.
+
+### How do I know?
+I've been working on large-scale and complex Front-Ends for several years. Angular2, React, ES6, you name it. I created and still maintain Generator-M-Ionic, an open source project that standardized developing HTML5 mobile Apps with Ionic 1 and Cordova.
+
+### What are you going take away from this talk?
+- Hand-full of convincing arguments and vivid examples of how good workflows can make your development worry-free.
+- A good map of all the available options to setup your projects, build your very own workflows and how they compare to each other: Gulp, Webpack, npm scripts, Yeoman Generators, CLIs
 
 
 ## Side notes
