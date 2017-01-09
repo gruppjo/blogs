@@ -14,9 +14,9 @@ In this talk I will show you, how incredibly useful good workflows are and how t
 
 Join me in a guided discovery through the absurdities and treasures of the nearly infinite sea of JavaScript tooling.
 
-My goal is to motivate you to  Motivation, why you should care about good workflows for your next projects.
+My goal is to convice you to care, care about good workflows for your next projects.
 
-In this talk I try to help you understand and rethink and inspire.
+( ~~In this talk I try to help you understand and rethink and inspire.~~ )
 
 I give lively examples and little anecdotes stemming from my day-to-day work as a Senior Front-End Engineer and from my experience creating and maintaining Generator-M-Ionic, a Yeoman.
 
@@ -25,9 +25,10 @@ I give lively examples and little anecdotes stemming from my day-to-day work as 
 ### Why should you care about good workflows?
 Good workflows can boost your team's productivity and spark useful discussions, they can professionalize your projects, even your whole development approach. They can positively impact development speed, code quality, reliability and many other aspects of your project: for instance how you setup, maintain, build and deliver your projects.
 
-Other topics:
-- continuous integration
-- dependency management
+( ~~Other topics:~~
+- ~~continuous integration~~
+- ~~dependency management~~
+)
 
 ### Who is this talk targeted at?
 Seasoned Front-End and JavaScript Engineers, and aspiring ones. Everybody interested in boosting their team's or their own productivity. Maybe even project managers.
