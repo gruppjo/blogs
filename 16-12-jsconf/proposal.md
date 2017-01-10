@@ -1,4 +1,4 @@
-# Professional workflows for JavaScript and Front-End Engineers
+# Professional, automated workflows for Front-End Engineers
 
 - Call for speakers (Deadline Jan 10) - http://2017.jsconf.eu/call-for-speakers/
 - 2015 speakers - http://2015.jsconf.eu/speakers/
@@ -6,19 +6,15 @@
 
 ## Prose
 
-In the last years, questions of how we setup, code, quality-assure, maintain, build and deliver our projects, has sparked the creation of countless open source projects. Different seed projects, (Yeoman) generators, CLIs, task runners, snippet creators and sub-generators all aim to take some work off of our shoulders.
+In the last years, questions of how we setup, code, quality-assure, maintain, build and deliver our projects, has sparked the creation of countless open source projects: different seed projects, (Yeoman) generators, CLIs, task runners, snippet creators and sub-generators all aim to take some work off of our shoulders.
 
 However it is easy to get lost in the vast amount of choices and in the last year Typescript, ES6, module loading and bundling and the rise of large framework choices like Angular 2 or React just piled up to the complexity of the whole topic. Thus nowadays, obtaining a setup that works well for you and your project can turn into a tedious and nightmarish task.
 
-In this talk I will show you, how incredibly useful good workflows are and how they can boost your mood and productivity.
+In this talk I will show you, how incredibly useful good workflows are and how they can boost your own and your team's mood and productivity.
 
 Join me in a guided discovery through the absurdities and treasures of the nearly infinite sea of JavaScript tooling.
 
-My goal is to convice you to care, care about good workflows for your next projects.
-
-( ~~In this talk I try to help you understand and rethink and inspire.~~ )
-
-I give lively examples and little anecdotes stemming from my day-to-day work as a Senior Front-End Engineer and from my experience creating and maintaining Generator-M-Ionic, a Yeoman.
+I give lively examples and little anecdotes stemming from my day-to-day work as a Senior Front-End Engineer and from my experience creating and maintaining [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic), a Yeoman Generator with advanced workflows with Angular 1 and Ionic 1.
 
 ## Key Facts
 
@@ -31,7 +27,7 @@ Good workflows can boost your team's productivity and spark useful discussions, 
 )
 
 ### Who is this talk targeted at?
-Seasoned Front-End and JavaScript Engineers, and aspiring ones. Everybody interested in boosting their team's or their own productivity. Maybe even project managers.
+Seasoned Front-End and JavaScript Engineers, and aspiring ones. Everybody interested in boosting productivity. Maybe even project managers.
 
 ### How do I know?
 I've been working on large-scale and complex Front-Ends for several years. Angular2, React, ES6, you name it. I created and still maintain Generator-M-Ionic, an open source project that standardized developing HTML5 mobile Apps with Ionic 1 and Cordova.
