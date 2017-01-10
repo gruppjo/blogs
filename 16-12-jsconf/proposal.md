@@ -17,7 +17,7 @@ This talk will show you how incredibly useful good workflows can be. And its spr
 ## Todo
 - Analyse workflows in current projects (and how good/absurd they are)
 - Analyse Angular CLI, Ionic CLI, FountainJS (JSFatigue)
-- Compare with Generator-M-Ionic (add a new lib, other taks)
+- Compare with Generator-M-Ionic (add a new lib, other tasks)
 
 ## Prose
 
