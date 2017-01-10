@@ -1,8 +1,23 @@
-# Professional, automated workflows for Front-End Engineers
+# Professional workflows for Front-End Engineers
 
 - Call for speakers (Deadline Jan 10) - http://2017.jsconf.eu/call-for-speakers/
 - 2015 speakers - http://2015.jsconf.eu/speakers/
 - Word count (not much more than 170) - https://wordcounttools.com/
+
+## Reduced
+
+In the last years, questions of how we setup, code, build, quality-assure, maintain and deliver our projects, has sparked the creation of countless open source projects: different seed projects, (Yeoman) generators, CLIs, task runners, snippet creators and many many more.
+
+They all aim to take some work off of our shoulders. However, it is easy to get lost in the vast amount of choices and nowadays, obtaining a setup that works well for you and your project can turn into a tedious and nightmarish task.
+
+Join me in a guided discovery through the absurdities and treasures of the nearly infinite sea of JavaScript Front-End Tooling.
+
+This talk will show you how incredibly useful good workflows can be. And its sprinkled with anecdotes stemming from my day-to-day work as a Front-End Engineer and Open Source Developer.
+
+## Todo
+- Analyse workflows in current projects (and how good/absurd they are)
+- Analyse Angular CLI, Ionic CLI, FountainJS (JSFatigue)
+- Compare with Generator-M-Ionic (add a new lib, other taks)
 
 ## Prose
 
@@ -15,6 +30,7 @@ In this talk I will show you, how incredibly useful good workflows are and how t
 Join me in a guided discovery through the absurdities and treasures of the nearly infinite sea of JavaScript tooling.
 
 I give lively examples and little anecdotes stemming from my day-to-day work as a Senior Front-End Engineer and from my experience creating and maintaining [Generator-M-Ionic](https://github.com/mwaylabs/generator-m-ionic), a Yeoman Generator with advanced workflows with Angular 1 and Ionic 1.
+
 
 ## Key Facts
 
