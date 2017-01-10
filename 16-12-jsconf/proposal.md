@@ -10,7 +10,7 @@ In the last years, questions of how we setup, code, build, quality-assure, maint
 
 They all aim to take some work off of our shoulders. However, it is easy to get lost in the vast amount of choices and nowadays, obtaining a setup that works well for you and your project can turn into a tedious and nightmarish task.
 
-Join me in a guided discovery through the absurdities and treasures of the nearly infinite sea of JavaScript Front-End Tooling.
+Join me in a guided discovery through the absurdities and treasures of the nearly infinite sea of JavaScript Front-End tooling.
 
 This talk will show you how incredibly useful good workflows can be and is sprinkled with anecdotes stemming from my day-to-day work as a Front-End Engineer and Open Source Developer.
 
