@@ -12,7 +12,7 @@ They all aim to take some work off of our shoulders. However, it is easy to get 
 
 Join me in a guided discovery through the absurdities and treasures of the nearly infinite sea of JavaScript Front-End Tooling.
 
-This talk will show you how incredibly useful good workflows can be. And its sprinkled with anecdotes stemming from my day-to-day work as a Front-End Engineer and Open Source Developer.
+This talk will show you how incredibly useful good workflows can be. And it's sprinkled with anecdotes stemming from my day-to-day work as a Front-End Engineer and Open Source Developer.
 
 ## Todo
 - Analyse workflows in current projects (and how good/absurd they are)
