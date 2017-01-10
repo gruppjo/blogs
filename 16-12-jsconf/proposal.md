@@ -6,7 +6,7 @@
 
 ## Reduced
 
-In the last years, questions of how we setup, code, build, quality-assure, maintain and deliver our projects, has sparked the creation of countless open source projects: different seed projects, (Yeoman) generators, CLIs, task runners, snippet creators and many many more.
+In the last years, questions of how we setup, code, build, quality-assure, maintain and deliver our projects have sparked the creation of countless open source projects: different seed projects, (Yeoman) generators, CLIs, task runners, snippet creators and many many more.
 
 They all aim to take some work off of our shoulders. However, it is easy to get lost in the vast amount of choices and nowadays, obtaining a setup that works well for you and your project can turn into a tedious and nightmarish task.
 
