@@ -1,8 +1,15 @@
 # Professional workflows for Front-End Engineers
 
+> “I would have written a shorter letter, but I did not have the time” — Blaise Pascal
+
 - Call for speakers (Deadline Jan 10) - http://2017.jsconf.eu/call-for-speakers/
 - 2015 speakers - http://2015.jsconf.eu/speakers/
 - Word count (not much more than 170) - https://wordcounttools.com/
+
+Keep in mind
+- what's the problem you're trying to address/solve, provide impulses for?
+- what's the target audience?
+- be concise, maintain outer-perspective, non-techie perspective
 
 ## Reduced
 
