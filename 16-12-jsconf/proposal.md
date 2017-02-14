@@ -6,10 +6,19 @@
 - 2015 speakers - http://2015.jsconf.eu/speakers/
 - Word count (not much more than 170) - https://wordcounttools.com/
 
-Keep in mind
+### Keep in mind
 - what's the problem you're trying to address/solve, provide impulses for?
 - what's the target audience?
 - be concise, maintain outer-perspective, non-techie perspective
+
+### Feedback
+- fantastic ms. "Very soon" - https://twitter.com/fox/status/828497424670797824
+- Dave Chaney - Writing great conference proposals - https://dave.cheney.net/2017/02/12/how-to-write-a-successful-conference-proposal
+  - could've: business decision makers - "hugely impact project timelines"
+  - could've: what you get - "give you a better navigation/compass"
+
+### Ideas
+- worry less: you'll have project managers, freelancers, changing project requirements poking your nerves.
 
 ## Reduced
 
