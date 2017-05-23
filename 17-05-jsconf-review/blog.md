@@ -6,6 +6,8 @@
 
 About two weeks ago, finally, the glorious and highly anticipated [JSConf EU](http://2017.jsconf.eu/) took place. You may have heard! Right here at the heart of the universe, Berlin. May 6 through 7. And it was totally-super-frickin-awesome!
 
+?? Read on for a wild, impressing ride through the whole event and a selection of the best talks that I attended.
+
 ?? JSConf? The smartest gals and guys in JS-Tech meet lovable dorkiness, emoji-creativity and the best of your local LGBT gathering.
 
 ### Getting ready.
@@ -44,7 +46,7 @@ I'm on the right bus.
 I meet Sues from Brooklyn who goes on to tell me about her friend who organized brooklyn.js, we get inside, everything is purple and blue, I get my badge and then - thank god there's breakfast - I chat with Sonja who's here with her colleagues from Amsterdam. Hipster-beards, neon-blue undercut hairstyles, gender-neutral bathrooms and an appealing assortment of organic lemonade and other beverages everywhere.
 
 
-Wow, ohh... I feel at home!
+Wow, ohh... do I feel at home!
 <p align="center">
   <img width="800" src="img/2_badge.JPG">
 </p>
@@ -61,15 +63,34 @@ Wow, ohh... I feel at home!
   <img width="800" src="img/2_breakfast.JPG">
 </p>
 
-9:27, suddenly a booming loud bass comes from the speakers, everybody turns their head. Add a pleasant robot voice "JAVASCRIPT - PEOPLE GOT MAD". [@nested_loops](https://twitter.com/nested_loops) open JSConf with their amazing audio-video and light performance.
+9:27, suddenly a booming smooth bass comes from the speakers, everybody turns their head. Add a pleasant robot voice: "JAVASCRIPT - PEOPLE GOT MAD". [@nested_loops](https://twitter.com/nested_loops) open JSConf with their amazing audio-video and light performance.
 
-All done live in...  
+All done live, with...  
 Guess what?
 
-JavaScript. (Ok and CSS)
+JavaScript. (Yes even the lights of the whole conference stage!)
 
-You can see the full video on the [JSConf Youtube Account](https://www.youtube.com/watch?v=lCn-XCASn98)
+You can see the full video on the [JSConf Youtube Account - opening JSConf EU 2017](https://www.youtube.com/watch?v=lCn-XCASn98) and even the talk where they [explain how they did everything](https://www.youtube.com/watch?v=NpKLt_YO3o8).
 
+### Day one in JavaScript wonderland
+Admittedly the hardest part was deciding which talks I wanted to see. Because, well, ... I wanted to see all of them! However, as you know, we all have to make possibly life-changing decision at some points in our lives and [@philnash](https://twitter.com/philnash)'s Service-Worker-powered, offline-ready version of the [JSConf EU 2017 schedule](https://jsconf.philna.sh/) sure helped me to make the proper ones.
+
+Add that to your mobile's home screen and no worries about internet-connectivity and spotty wifi-connection for the whole weekend! How cool is that?
+
+
+##### Addy Osmani - The browser hacker's guide to instantly loading everything
+After the grand opening, the conference was kicked-off by no one less than Google's [Addy Osmani](https://addyosmani.com/) with his content-packed talk about page loading performance. My two most important take-aways to look at: Google's [Lighthouse](https://developers.google.com/web/tools/lighthouse/) automation tool and a curated list of articles on that topic at  [medium.com/reloading](https://medium.com/reloading).
+
+### Notes
+Coffee break.
+Google Cloud Service Coding challenge? Chill out at the community area? Get connected with other people through the community board?
+Some beach sand at the Badeschiff to unwind in between talks?
 
 ### Accessibility
-Support your queerness, childcare, accessibility needs - http://2017.jsconf.eu/
+Support your nerdom, geekiness, creative playfulness, queerness, dietary restrictions, childcare, accessibility needs - http://2017.jsconf.eu/
+WLAN, badge colors (picture or no picture). So thoughtful.
+T-Shirts, Frozen Yoghurt
+
+Closing Party - ever see somebody play a bike as MUSIC INSTRUMENT? Well, you will soon, go watch [LOOK MUM NO COMPUTER](https://www.youtube.com/channel/UCafxR2HWJRmMfSdyZXvZMTw) performance
+
+JSConf is a place for you
