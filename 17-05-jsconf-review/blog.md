@@ -43,10 +43,6 @@ I look around: trendy Herschel backpacks, authentic nerd glasses and a curly-hai
 
 I'm on the right bus.
 
-I meet Sues from Brooklyn who goes on to tell me about her friend who organized brooklyn.js, we get inside, everything is purple and blue, I get my badge and then - thank god there's breakfast - I chat with Sonja who's here with her colleagues from Amsterdam. Hipster-beards, neon-blue undercut hairstyles, gender-neutral bathrooms and an appealing assortment of organic lemonade and other beverages everywhere.
-
-
-Wow, ohh... do I feel at home!
 <p align="center">
   <img width="800" src="img/2_badge.JPG">
 </p>
@@ -63,12 +59,20 @@ Wow, ohh... do I feel at home!
   <img width="800" src="img/2_breakfast.JPG">
 </p>
 
+I meet Sues from Brooklyn who goes on to tell me about her friend who organized brooklyn.js, we get inside, everything is purple and blue, I get my badge and then - thank god there's breakfast - I chat with Sonja who's here with her colleagues from Amsterdam. Hipster-beards, neon-blue undercut hairstyles, gender-neutral bathrooms and an appealing assortment of organic lemonade and other beverages everywhere.
+
+Wow, ohh... do I feel at home!
+
 9:27, suddenly a booming smooth bass comes from the speakers, everybody turns their head. Add a pleasant robot voice: "JAVASCRIPT - PEOPLE GOT MAD". [@nested_loops](https://twitter.com/nested_loops) open JSConf with their amazing audio-video and light performance.
 
 All done live, with...  
 Guess what?
 
-JavaScript. (Yes even the lights of the whole conference stage!)
+<p align="center">
+  <img src="https://media.giphy.com/media/Wp7uglUQFGvGo/giphy.gif">
+</p>
+JavaScript! (Yes even the lights of the whole conference stage!)
+
 
 You can see the full video on the [JSConf Youtube Account - opening JSConf EU 2017](https://www.youtube.com/watch?v=lCn-XCASn98) and even the talk where they [explain how they did everything](https://www.youtube.com/watch?v=NpKLt_YO3o8).
 
@@ -81,9 +85,11 @@ Add that to your mobile's home screen and no worries about internet-connectivity
 ##### Addy Osmani, [@addyosmani](https://twitter.com/addyosmani) - The browser hacker's guide to instantly loading everything
 After the grand opening, the conference was kicked-off by no one less than Google's [Addy Osmani](https://addyosmani.com/) with his content-packed talk about page loading performance. My two most important take-aways to look at: Google's [Lighthouse](https://developers.google.com/web/tools/lighthouse/) automation tool and a curated list of articles on that topic at  [medium.com/reloading](https://medium.com/reloading).
 
+<p align="center">
+  <img width="200" src="https://cloud.githubusercontent.com/assets/39191/22478294/23f662f6-e79e-11e6-8de3-ffd7be7bf628.png">
+</p>
 "Performance is a continuous game of measuring for areas to improve"
 
-** // LIGHTHOUSE IMAGE **
 
 
 ##### Anjana Vakil: Immutable data structures for functional JS
@@ -101,9 +107,12 @@ mori (more functional/lisp-like interface), immutable js (facebook, oo like)
 ##### Ruth John AV/Artist
 http://livejs.network/
 
+** TODO: SCREENCAP OF WEBSITE **
 
-##### Jest
-https://facebook.github.io/jest/
+<p align="center">
+  <im width="200" src="img/4_livejs.JPG">
+  <img width="200" src="img/4_ruth.JPG">
+</p>
 
 ##### Ashley Williams - a brief history of modularity https://ashleygwilliams.github.io/jsconfeu-2017/#1
 https://www.youtube.com/watch?v=vypCsVm5z28
@@ -111,7 +120,7 @@ https://www.youtube.com/watch?v=vypCsVm5z28
 
 ## Day two
 
-##### Dr. Franziska Hinkelmann @fhinkel - JavaScript Engines - how do they evenn?
+##### Dr. Franziska Hinkelmann @fhinkel - JavaScript Engines - how do they even?
 video: https://www.youtube.com/watch?v=p-iiEDtpy6I
 fhinkel: https://fhinkel.github.io/JSEngines-HowDoTheyEven/assets/player/KeynoteDHTMLPlayer.html#0
 
@@ -128,7 +137,6 @@ https://www.youtube.com/watch?v=HktWin_LPf4
 [@_developit](https://twitter.com/_developit)
 slides: http://slides.com/developit/preact-into-the-void0#/1
 video: https://www.youtube.com/watch?v=LY6y3HbDVmg
-"standards made without community input are not good standards" - @jasnell - https://twitter.com/ag_dubs/status/861227966658998272
 
 
 ##### Ben Schwarz: Real world connectivity
@@ -148,11 +156,13 @@ https://twitter.com/whitneyhacks
 ##### Others
 
 ##### Maggie Pint
-Make it easy to use
+- Maggie Pint - Make it easy to use
 https://twitter.com/frontsideair/status/861176599995183105
+- Jest - https://facebook.github.io/jest
 - Keep the internet weird
 - Emil Bay, Keeping passwords safe in 2017,
 - NESpectre
+- Zarah - https://www.bustle.com/comics
 - Maintaining babel
 Do we derive worth form our work? What happens when it suffers.
 How we do open source > what comes out of it.
@@ -161,7 +171,7 @@ https://www.youtube.com/watch?v=_iToM2KC0QE
 - service workers outbreak - https://www.youtube.com/watch?v=CPP9ew4Co0M
 - can you read me? - https://www.youtube.com/watch?v=6qd2RZsRNUE
 
-
+Explore more on their youtube channel: https://www.youtube.com/user/jsconfeu
 
 
 
@@ -172,6 +182,8 @@ Some beach sand at the Badeschiff to unwind in between talks?
 
 ### Encouraged
 To be myself, encouraged to participate, see how approachable and normal all these stunning people are. Cool!
+
+And I wasn't the only one: https://twitter.com/nebrius/status/861278524719738881
 
 ### Accessibility
 Support your nerdom, geekiness, creative playfulness, queerness, dietary restrictions, childcare, accessibility needs - http://2017.jsconf.eu/
