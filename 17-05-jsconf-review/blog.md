@@ -4,13 +4,9 @@
   <img width="800" src="img/0_banner.JPG">
 </p>
 
-About two weeks ago, finally, the glorious and highly anticipated [JSConf EU](http://2017.jsconf.eu/) took place. You may have heard! Right here at the heart of the universe, Berlin. May 6 through 7. And it was totally-super-frickin-awesome!
+About two weeks ago, finally, the glorious and highly anticipated [JSConf EU](http://2017.jsconf.eu/) took place. You may have heard! Right here at the heart of the universe, Berlin. May 6 through 7. And it was totally-super-frickin-awesome.
 
-?? In case you missed it! Jealous you couldn't go and are really curios or just want to bathe yourself in some really nice memories of JSConf EU, you've come to the right place.
-
-?? Read on for a wild, impressing ride through the whole event and a selection of the best talks that I attended.
-
-?? JSConf? The smartest gals and guys in JS-Tech meet lovable dorkiness, emoji-creativity and the best of your local LGBT gathering.
+Maybe you couldn't go and are super jealous or maybe you did go and just want to bathe yourself in some nice memories. No matter, you've come to the right place!
 
 ## Getting ready.
 
@@ -18,7 +14,7 @@ Having JavaScript at the top of my technology-stack for more than 8 years as a S
 
 But let's back up a little.
 
-In late 2016, I learned about JSConf EU taking place through their [open call for speakers](http://2017.jsconf.eu/call-for-speakers/). Literally everyone could submit a proposal and through a carefully conducted selection process the [team](http://2017.jsconf.eu/about/) ([@cramforce](https://twitter.com/cramforce), [@hblank](https://twitter.com/hblank), [@janl](https://twitter.com/janl), [@fox](https://twitter.com/fox)) behind JSConf came up with an [incredible line-up of speakers](http://2017.jsconf.eu/speakers/) chosen out of more than 600 submitted proposals.
+In late 2016, I learned about JSConf EU taking place through their [open call for speakers](http://2017.jsconf.eu/call-for-speakers/). Literally everyone could submit a proposal and through a carefully conducted selection process, the [amazing team](http://2017.jsconf.eu/about/) behind JSConf EU  ([@cramforce](https://twitter.com/cramforce), [@hblank](https://twitter.com/hblank), [@janl](https://twitter.com/janl), [@fox](https://twitter.com/fox)) came up with an [incredible line-up of speakers](http://2017.jsconf.eu/speakers/) chosen out of more than 600 submitted proposals.
 
 A few months prior to the conference they kept announcing one speaker after another and with every new announcement my heart-rate went up. It just kept getting better and better, the topics and speakers (as you'll soon see) were so much more diverse than I expected. Yes!
 
@@ -28,13 +24,13 @@ I got so excited, the week before the conference, I made sure everybody at my co
   <img width="800" src="img/1_note.JPG">
 </p>
 
-Did they understand what I was talking about? - No.
-Did I annoy all of them? - Yes.
-Did I care? - Not at all!
+Did they understand what I was talking about? - No.  
+Did I annoy all of them? - Yes.  
+Did I care? - Not at all!  
 
 *"Jonathan, do you have the files for that thing I need?"* - *"No Jenni, but I can tell you what I do have. A file containing a ticket for JSConf!"*
 
-*"Jonathan, can you give me feedback on the design changes I made?"* - *No Lars, but I can give a really long twitter feed on why JSConf is awesome!*
+*"Jonathan, can you give me feedback on the design changes I made?"* - *No Lars, but I can give you a really long twitter feed on why JSConf is awesome!*
 
 "*Jonathan, do you want to join us for lunch?"* - *"No Kathrin, but do you know where they will also have really good lun..."* - **Shut up, Jonathan.**
 
@@ -83,7 +79,7 @@ Admittedly the hardest part was deciding which talks I wanted to see. Because, w
 
 Add that to your mobile's home screen and no worries about internet-connectivity and spotty wifi-connection for the whole weekend! How cool is that?
 
-Unfortunately I had a even harder time deciding which talks to write about in this blog post. There were just so many good ones. Hence, please regard the following as a best effort and a compromise between the awesomeness of the talk and the availability of resources for you to look at. The [JSConfEU youtube channel](https://www.youtube.com/user/jsconfeu) is currently updated with videos every couple of days, so be sure to check it out!
+Unfortunately I had an even harder time deciding which talks to write about in this blog post. There were just so many good ones. Hence, please regard the following as a best effort and a compromise between the awesomeness of the talk and the availability of resources for you to look at. The [JSConfEU youtube channel](https://www.youtube.com/user/jsconfeu) is currently updated with videos every couple of days, so be sure to check it out!
 
 Let's dive in!
 
@@ -111,7 +107,7 @@ Her whole talk is available on [youtube](https://www.youtube.com/watch?v=Wo0qiGP
 
 
 #### Ruth John: How To Be A Web A/V Artist
-*"Winamp, Winamp, Winamp - it really whips the Llama's ass!"* - do you remember that [phrase](https://www.youtube.com/watch?v=HaF-nRS_CWM)? You probably do, if you were trying to play mp3s on your computer about 15 years ago. If so, you might also remember Winamp Media Player's awesome [live visualization feature](https://www.youtube.com/watch?v=-34Qqd0mAfo) that reacts to the music/sounds you are playing.
+*"Winamp - it really whips the Llama's ass!"* - do you remember that [phrase](https://www.youtube.com/watch?v=HaF-nRS_CWM)? You probably do, if you were trying to play mp3s on your computer about 15 years ago. If so, you might also remember Winamp Media Player's awesome [live visualization feature](https://www.youtube.com/watch?v=-34Qqd0mAfo) that reacts to the music/sounds you are playing.
 
 Ruth John's ([@Rumyra](https://twitter.com/Rumyra)) enchanting talk does exactly that but way cooler and also in the browser. IN REAL-TIME! Visualisations reacting to her voice, the music, the audience. She does all sorts of cool A/V stuff in the browser together with the other membors of the [live:js collective](http://livejs.network/).
 
@@ -123,19 +119,20 @@ Ruth John's ([@Rumyra](https://twitter.com/Rumyra)) enchanting talk does exactly
 Unfortunately her talk is not available on the [JSConf youtube channel](https://www.youtube.com/user/jsconfeu) (yet?), I'll let you know of any updates!
 
 #### Ashley Williams - A Brief History of Modularity
-If you have watched [@nested_loops](https://twitter.com/nested_loops)' opening video you may have wondered: *"Why did all the people get mad?"*. The answer is modularity.
-
-Ashley Williams ([@ag_dubs](https://twitter.com/ag_dubs)) explores in her talk why we even use modules, what separation of concerns means exactly, and what the costs and dangers of using modules are. And yes there's cost to modularity, that's why there's projects like [closure](https://github.com/google/closure-compiler), [prepack](https://github.com/facebook/prepack) and [tsickle](https://github.com/angular/tsickle) to alleviate them.
+If you have watched [@nested_loops](https://twitter.com/nested_loops)' opening video you may have wondered: *"Why did all the people get mad?"*. The answer is: modularity.
 
 <p align="center">
   <img width="600" src="img/4_mad.png">
 </p>
 
+Ashley Williams ([@ag_dubs](https://twitter.com/ag_dubs)) explores in her talk why we even use modules, what separation of concerns means exactly, and what the costs and dangers of using modules are. And yes there's cost to modularity, that's why there's projects like [closure](https://github.com/google/closure-compiler), [prepack](https://github.com/facebook/prepack) and [tsickle](https://github.com/angular/tsickle) to alleviate them.
+
+
 Her whole talk is available [online](https://www.youtube.com/watch?v=vypCsVm5z28), even the [slides](https://ashleygwilliams.github.io/jsconfeu-2017/#1). Awesome, check it out!
 
 #### Aaaaaand ... Party!!
 
-So while I was busy watching about 14 talks and having super delicious vegetarian meals and refreshing beverages in between, the whole day flew by in what feels like a blink of the eye.
+So while I was busy watching about 14 talks and having super delicious vegetarian meals with refreshing beverages in between, the whole day flew by in what feels like a blink of the eye.
 
 Suddenly in the adjacent party location, I'm surrounded by lashing lights (even more than before), have a Gin&Tonic in my hands while the illustrious [LOOK MUM NO COMPUTER](https://www.youtube.com/channel/UCafxR2HWJRmMfSdyZXvZMTw) rocks away the stage and the crowd, shooting laser beams of analog-synthiness out of his synth-bike intstrument.
 
@@ -151,7 +148,7 @@ So we ride into the night.
 
 
 #### Dr. Franziska Hinkelmann - JavaScript Engines - how do they even?
-I was still drowsy and bedazzled from all the impressions of the previous day, when Dr. Franziska Hinkelmann [@fhinkel](https://twitter.com/fhinkel) gives the audience solid insights into Chrome's [V8 JavaScript engine](https://developers.google.com/v8/). Hot functions, de-optimization bailout, just in time compilation, you'll learn about all of this. Both the [video](https://www.youtube.com/watch?v=p-iiEDtpy6I) and the [slides](https://fhinkel.github.io/JSEngines-HowDoTheyEven/assets/player/KeynoteDHTMLPlayer.html#0) are available.
+I was still drowsy and bedazzled from all the impressions of the previous day, when Dr. Franziska Hinkelmann [@fhinkel](https://twitter.com/fhinkel) gave the audience solid insights into Chrome's [V8 JavaScript engine](https://developers.google.com/v8/). Hot functions, de-optimization bailout, just in time compilation, you'll learn about all of this. Both the [video](https://www.youtube.com/watch?v=p-iiEDtpy6I) and the [slides](https://fhinkel.github.io/JSEngines-HowDoTheyEven/assets/player/KeynoteDHTMLPlayer.html#0) are available online.
 
 <p align="center">
   <img width="400" src="img/6_v8.png">
@@ -163,7 +160,7 @@ Thirsty for some more V8 deep diving? - So was I! Marja Hölttä ([@marjakh](htt
 Apart from the [video](https://www.youtube.com/watch?v=Fg7niTmNNLg) and her [slides](https://docs.google.com/presentation/d/1b-ALt6W01nIxutFVFmXMOyd_6ou_6qqP6S0Prmb1iDs/edit#slide=id.p), she recommends reading Addy Osmani's [JavaScript Start-up Performance](https://docs.google.com/presentation/d/1b-ALt6W01nIxutFVFmXMOyd_6ou_6qqP6S0Prmb1iDs/edit#slide=id.p).
 
 #### Emily Gorcenski - The Ethics of the Internet of Things
-Emily Gorcenski's ([@EmilyGorcenski](https://twitter.com/EmilyGorcenski)) riveting talk about the *The Ethics of the Internet of Things* completely took me by surprise. While they beautifully elaborate how big of a chance IoT devices are, they also elaborate how IoT devices could and already do create severe ethical and legal dilemma's. It is real. Way more than I thought!
+Emily Gorcenski's ([@EmilyGorcenski](https://twitter.com/EmilyGorcenski)) riveting talk about the *The Ethics of the Internet of Things* completely took me by surprise. While they beautifully elaborate how big of a chance IoT devices are, they also elaborate how IoT devices could and already do create severe ethical and legal dilemmas. It is real. Way more than I thought!
 
 In my opinion the whole video is a [definitive must see for every one](https://www.youtube.com/watch?v=xLL7Fo_em2E).
 
@@ -178,7 +175,7 @@ It also comes with a spot-on and a -granted- little dark punshline, that I could
 
 
 #### Jason Miller - Preact: Into the void 0
-A performant 3kB alternative to React? Jason Miller ([@_developit](https://twitter.com/_developit)) shows how [Preact](https://github.com/developit/preact) came to be, disects JSX and the Virtual DOM and probably has the best slide of the whole conference, maybe even the universe.
+A performant 3kB alternative to React? Jason Miller ([@_developit](https://twitter.com/_developit)) shows how [Preact](https://github.com/developit/preact) came to be, disects JSX and the Virtual DOM and probably serves the best slide of the whole conference, maybe even the universe:
 
 <p align="center">
   <img width="400" src="img/8_decisions.png">
@@ -220,9 +217,12 @@ I could go on and on until I recapped every single talk that I watched. Since I 
 - Maggie Pint ([@maggiepint](https://twitter.com/maggiepint)) - Patterns for JavaScript Library Design
   - She's a maintainer of [moment.js](https://momentjs.com/) and part of TC39
   - Lesson, above all: [Make it easy to use!](https://twitter.com/frontsideair/status/861176599995183105)
-- Rachel White - Keep the Internet Weird
-- Jest - https://facebook.github.io/jest
-- Emil Bay, Keeping passwords safe in 2017,
+- Rachel White ([@ohhoe](https://twitter.com/ohhoe)) - Keep the Internet Weird
+  - Cursor effects. DHTML. Learning out of curiosity!
+- Chris Pojer - Building High-Quality JavaScript Tools
+  - Check out [Jest](https://facebook.github.io/jest) JavaScript's new easy to port to testing-framework.
+- Emil Bay ([@emilbayes](https://twitter.com/emilbayes)) - Keeping passwords safe in 2017
+  - md5, salted hashes, blowfish, [npm install secure-password](https://www.npmjs.com/package/secure-password)
 - NESpectre
 - Christian Kästner breakingapis.
 - Zarah - https://www.bustle.com/comics
@@ -251,7 +251,7 @@ The whole conference felt so amazingly well organised, from start to finish. I w
 
 The location ([Arena Berlin](http://www.arena.berlin/)) was amazing itself and also amazingly well prepared: in between talks and in the breaks you could just unwind at the [Badeschiff](http://www.arena.berlin/veranstaltungsort/badeschiff/) beach for a while, there were chillout areas at the venue and as you could already see the stage was just phenomenal.
 
-If you had nothing proper to do, there was so much fun things to roam around, so many treats and experiences: waiting for your coffe? Why not do a Google Cloud Service Coding Challenge, hang out at the community area and see people talk about their projects or get connected through the community board.
+If you had nothing proper to do, there were so many fun things to roam around, so many treats and experiences: waiting for your coffe? Why not do a Google Cloud Service Coding Challenge, hang out at the community area and see people talk about their projects or get connected through the community board.
 
 On top of everything, the whole atmosphere was so open and inclusive, starting with the gender-neutral bathrooms, the fact that every talk was transcrippted live for those with special needs or even just small details like the color of your badge indicating whether it was ok to take pictures of you or not. So thoughtful.
 
@@ -261,15 +261,15 @@ Not in my life I think, have I been so inspired and encouraged to be me. To use 
   <img width="600" src="img/12_beme.png">
 </p>
 
-I met so many amazing people: I played Exploding Kittens with [@porteneuve](https://twitter.com/porteneuve), casually chatted with [@whitneyhacks](https://twitter.com/whitneyhacks), [@maggiepint](https://twitter.com/maggiepint) and [@EmilyGorcenski](https://twitter.com/EmilyGorcenski) and even made some new friends, [@retzloff](https://twitter.com/retzloff) and [@karenzshea](https://twitter.com/karenzshea).
+In the process I met so many amazing people: I played Exploding Kittens with [@porteneuve](https://twitter.com/porteneuve), casually chatted with [@whitneyhacks](https://twitter.com/whitneyhacks), [@maggiepint](https://twitter.com/maggiepint) and [@EmilyGorcenski](https://twitter.com/EmilyGorcenski) and even made some new friends, [@retzloff](https://twitter.com/retzloff) and [@karenzshea](https://twitter.com/karenzshea).
 
 All of this led to such a memorable and valuable experience that I will not forget it in a lifetime.
 
-Thank you to all the amazing people who made this possible.
+Thank you to all the amazing people who made this possible. Especially the organizers: [@cramforce](https://twitter.com/cramforce), [@hblank](https://twitter.com/hblank), [@janl](https://twitter.com/janl), [@fox](https://twitter.com/fox)!
 
-I want to close this with a slide, of Whitney Williams ([@whitneyhacks](https://twitter.com/whitneyhacks)) whose quote used for the title of this blog post.
+I want to close this post with a slide, of Whitney Williams ([@whitneyhacks](https://twitter.com/whitneyhacks)) whose quote I used for the title of this blog post.
 
-Don't forget.
+Don't forget:
 
 People first. Always.
 
