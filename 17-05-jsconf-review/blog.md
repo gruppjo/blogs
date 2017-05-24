@@ -213,19 +213,15 @@ https://www.youtube.com/watch?v=HktWin_LPf4
 #### The legacy of the JS community
 https://twitter.com/whitneyhacks
 
-Who I quoted for the title of the whole blog post.
-
-
-
 
 #### So many others...
-I could go on and on until I recapped every single talk that I watched. Unfortunately time is limited so here are some others that I want to mention, some of these are already available on the [JSConf YouTube Channel](https://www.youtube.com/user/jsconfeu), others might be added in the future. Finger's crossed!
+I could go on and on until I recapped every single talk that I watched. Since I can't do that, here are some I still want to mention in no particular order. Some of these talks are already available on the [JSConf YouTube Channel](https://www.youtube.com/user/jsconfeu), others might be added in the future. Finger's crossed!
 
 - Maggie Pint ([@maggiepint](https://twitter.com/maggiepint)) - Patterns for JavaScript Library Design
+  - She's a maintainer of [moment.js](https://momentjs.com/) and part of TC39
   - Lesson, above all: [Make it easy to use!](https://twitter.com/frontsideair/status/861176599995183105)
-
+- Rachel White - Keep the Internet Weird
 - Jest - https://facebook.github.io/jest
-- Keep the internet weird
 - Emil Bay, Keeping passwords safe in 2017,
 - NESpectre
 - Christian Kästner breakingapis.
@@ -234,41 +230,52 @@ I could go on and on until I recapped every single talk that I watched. Unfortun
 Do we derive worth form our work? What happens when it suffers.
 How we do open source > what comes out of it.
 https://www.youtube.com/watch?v=_iToM2KC0QE
-- offline first https://speakerdeck.com/mmcelaney/jsconf-eu-2017-go-offline-first-to-save-the-world
-- service workers outbreak - https://www.youtube.com/watch?v=CPP9ew4Co0M
-- can you read me? - https://www.youtube.com/watch?v=6qd2RZsRNUE
 
-
-## Over already??
+<p align="center">
+  <img width="600" src="img/11_weird.JPG">
+  <img width="600" src="img/11_nes.JPG">
+  <img width="600" src="img/11_breakapi.JPG">
+</p>
 
 ## Such a good conference
 
-### Notes
-Coffee break.
+A few last words. Apart from all the amazing talks there's a few other things I would like to mention and praise!
 
-and also while being busy shoving my face with complimentary frozen yoghurt, deciding which awesome print I should get on my shirt, the whole day just flew by in its wholesome exhilirating greatness.
+The whole conference felt so amazingly well organised, from start to finish. I was so impressed. While I was being busy shoving my face with complimentary frozen yoghurt, deciding which awesome print I should get on my shirt, the whole days just flew by in their wholesome exhilirating greatness without any inconveniences. The food was all vegetarian and super delicious. Everything was taken care of from the first breakfast to the closing party at the unique [Hoppetosse](https://hoppetosse.berlin/).
 
-I was so impressed
+<p align="center">
+  <img width="600" src="img/10_froyo.JPG">
+  <img width="600" src="img/10_shirt.JPG">
+  <img width="600" src="img/10_shirt2.JPG">
+</p>
 
-Google Cloud Service Coding challenge? Chill out at the community area? Get connected with other people through the community board?
-Some beach sand at the Badeschiff to unwind in between talks?
+The location ([Arena Berlin](http://www.arena.berlin/)) was amazing itself and also amazingly well prepared: in between talks and in the breaks you could just unwind at the [Badeschiff](http://www.arena.berlin/veranstaltungsort/badeschiff/) beach for a while, there were chillout areas at the venue and as you could already see the stage was just phenomenal.
 
-Meet Emily.
+If you had nothing proper to do, there was so much fun things to roam around, so many treats and experiences: waiting for your coffe? Why not do a Google Cloud Service Coding Challenge, hang out at the community area and see people talk about their projects or get connected through the community board.
 
-### Encouraged
-Inspired.
+On top of everything, the whole atmosphere was so open and inclusive, starting with the gender-neutral bathrooms, the fact that every talk was transcrippted live for those with special needs or even just small details like the color of your badge indicating whether it was ok to take pictures of you or not. So thoughtful.
 
-To be myself, encouraged to participate, see how approachable and normal all these stunning people are. Cool!
+Not in my life I think, have I been so inspired and encouraged to be me. To use somebody else's ([@nebrius](https://twitter.com/nebrius)) words:
 
-And I wasn't the only one: https://twitter.com/nebrius/status/861278524719738881
+<p align="center">
+  <img width="600" src="img/12_beme.png">
+</p>
 
-### Accessibility
-Support your nerdom, geekiness, creative playfulness, queerness, dietary restrictions, childcare, accessibility needs - http://2017.jsconf.eu/
-WLAN, badge colors (picture or no picture). So thoughtful.
-T-Shirts, Frozen Yoghurt
+I met so many amazing people: I played Exploding Kittens with [@porteneuve](https://twitter.com/porteneuve), casually chatted with [@whitneyhacks](https://twitter.com/whitneyhacks), [@maggiepint](https://twitter.com/maggiepint) and [@EmilyGorcenski](https://twitter.com/EmilyGorcenski) and even made some new friends, [@retzloff](https://twitter.com/retzloff) and [@karenzshea](https://twitter.com/karenzshea).
 
+All of this led to such a memorable and valuable experience that I will not forget it in a lifetime.
 
-JSConf is a place for you
+Thank you to all the amazing people who made this possible.
+
+I want to close this with a slide, of Whitney Williams ([@whitneyhacks](https://twitter.com/whitneyhacks)) whose quote used for the title of this blog post.
+
+Don't forget.
+
+People first. Always.
+
+<p align="center">
+  <img width="600" src="img/13_people_first.JPG">
+</p>
 
 
 ### TODOs
