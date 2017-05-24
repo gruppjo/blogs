@@ -200,17 +200,6 @@ One of the best quotes is by James:
 I recommend watching [the whole video](https://www.youtube.com/watch?v=cZTp2MaxcJg), it's worth it and gives valuable insights into how the language is made.
 
 
-
-#### Ben Schwarz: Real world connectivity
-https://www.youtube.com/watch?v=rwyZc1keSew
-
-#### Cartoon intro into web assembly
-https://www.youtube.com/watch?v=HktWin_LPf4
-
-#### The legacy of the JS community
-https://twitter.com/whitneyhacks
-
-
 #### So many others...
 I could go on and on until I recapped every single talk that I watched. Since I can't do that, here are some I still want to mention in no particular order. Some of these talks are already available on the [JSConf YouTube Channel](https://www.youtube.com/user/jsconfeu), others might be added in the future. Finger's crossed!
 
@@ -219,17 +208,18 @@ I could go on and on until I recapped every single talk that I watched. Since I 
   - Lesson, above all: [Make it easy to use!](https://twitter.com/frontsideair/status/861176599995183105)
 - Rachel White ([@ohhoe](https://twitter.com/ohhoe)) - Keep the Internet Weird
   - Cursor effects. DHTML. Learning out of curiosity!
-- Chris Pojer - Building High-Quality JavaScript Tools
-  - Check out [Jest](https://facebook.github.io/jest) JavaScript's new easy to port to testing-framework.
+- Chris Pojer ([@cpojer](cpojer)) - Building High-Quality JavaScript Tools
+  - Check out Facebook's [Jest](https://facebook.github.io/jest) JavaScript's new easy to port to testing-framework.
 - Emil Bay ([@emilbayes](https://twitter.com/emilbayes)) - Keeping passwords safe in 2017
   - md5, salted hashes, blowfish, [npm install secure-password](https://www.npmjs.com/package/secure-password)
-- NESpectre
-- Christian Kästner breakingapis.
-- Zarah - https://www.bustle.com/comics
-- Maintaining babel
-Do we derive worth form our work? What happens when it suffers.
-How we do open source > what comes out of it.
-https://www.youtube.com/watch?v=_iToM2KC0QE
+- Zachary Johnson & Andrew Reitano - [NESpectre](https://twitter.com/thenespectre): The Massively Multi-Haunted NES
+  - At one point about 200 people were collectively controlling Mario on the NES simulator with our mobile (we sucked!) while others were corrupting random memory slots to create WEEEEEEEIIIIIRD effects.
+- Zahra Jabini ([@ZeeJab](https://twitter.com/ZeeJab)) - Sequential Art, Comics & SVGs
+  - Check out her work at: [https://www.bustle.com/comics](https://www.bustle.com/comics)
+- Lin Clark - A Cartoon Intro to WebAssembly.
+  - [VIDEO!!](https://www.youtube.com/watch?v=HktWin_LPf4)
+- ...
+- many many many more!
 
 <p align="center">
   <img width="600" src="img/11_weird.JPG">
