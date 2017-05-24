@@ -6,7 +6,7 @@
 
 About two weeks ago, finally, the glorious and highly anticipated [JSConf EU](http://2017.jsconf.eu/) took place. You may have heard! Right here at the heart of the universe, Berlin. May 6 through 7. And it was totally-super-frickin-awesome!
 
-?? In case you missed it!
+?? In case you missed it! Jealous you couldn't go and are really curios or just want to bathe yourself in some really nice memories of JSConf EU, you've come to the right place.
 
 ?? Read on for a wild, impressing ride through the whole event and a selection of the best talks that I attended.
 
@@ -145,52 +145,85 @@ Suddenly in the adjacent party location, I'm surrounded by lashing lights (even 
 
 Wait what? - Yes, it's a bike and it's a music instrument. At the same time.
 
-We drift into the night.
-
+So we ride into the night.
 
 ## Day two
 
-I'm still drowsy and bedazzled by all the impressions of the previous day
 
-#### Dr. Franziska Hinkelmann @fhinkel - JavaScript Engines - how do they even?
-video: https://www.youtube.com/watch?v=p-iiEDtpy6I
-fhinkel: https://fhinkel.github.io/JSEngines-HowDoTheyEven/assets/player/KeynoteDHTMLPlayer.html#0
+#### Dr. Franziska Hinkelmann - JavaScript Engines - how do they even?
+I was still drowsy and bedazzled from all the impressions of the previous day, when Dr. Franziska Hinkelmann [@fhinkel](https://twitter.com/fhinkel) gives the audience solid insights into Chrome's [V8 JavaScript engine](https://developers.google.com/v8/). Hot functions, de-optimization bailout, just in time compilation, you'll learn about all of this. Both the [video](https://www.youtube.com/watch?v=p-iiEDtpy6I) and the [slides](https://fhinkel.github.io/JSEngines-HowDoTheyEven/assets/player/KeynoteDHTMLPlayer.html#0) are available.
+
+<p align="center">
+  <img width="400" src="img/6_v8.png">
+</p>
 
 #### Marja Hölttä - Parsing JavaScript - better lazy than eager?
-https://www.youtube.com/watch?v=Fg7niTmNNLg
-https://docs.google.com/presentation/d/1b-ALt6W01nIxutFVFmXMOyd_6ou_6qqP6S0Prmb1iDs/edit#slide=id.p
+Thirsty for some more V8 deep diving? - So was I! Marja Hölttä ([@marjakh](https://twitter.com/marjakh)) tops of the previous talk with a comprehensive ride through JavaScript parsing and what you can do to make your page startup performance fast and sleek!
 
-#### emily gorcenski: the ethics of the internet of things - https://www.youtube.com/watch?v=xLL7Fo_em2E
+Apart from the [video](https://www.youtube.com/watch?v=Fg7niTmNNLg) and her [slides](https://docs.google.com/presentation/d/1b-ALt6W01nIxutFVFmXMOyd_6ou_6qqP6S0Prmb1iDs/edit#slide=id.p), she recommends reading Addy Osmani's [JavaScript Start-up Performance](https://docs.google.com/presentation/d/1b-ALt6W01nIxutFVFmXMOyd_6ou_6qqP6S0Prmb1iDs/edit#slide=id.p).
 
-#### Cartoon intro into web assembly
-https://www.youtube.com/watch?v=HktWin_LPf4
+#### Emily Gorcenski - The Ethics of the Internet of Things
+Emily Gorcenski's ([@EmilyGorcenski](https://twitter.com/EmilyGorcenski)) riveting talk about the *The Ethics of the Internet of Things* completely took me by surprise. While they beautifully elaborate how big of a chance IoT devices are, they also elaborate how IoT devices could and already do create severe ethical and legal dilemma's. It is real. Way more than I thought!
+
+In my opinion the whole video is a [definitive must see for every one](https://www.youtube.com/watch?v=xLL7Fo_em2E).
+
+It also comes with a spot-on and a -granted- little dark punshline, that I could not resist to show you right away.
+
+<p align="center">
+  <img width="400" src="img/7_emily.JPG">
+  <img width="400" src="img/7_emily2.png">
+</p>
+
+
+
 
 #### Jason Miller - Preact: Into the void 0
-[@_developit](https://twitter.com/_developit)
-slides: http://slides.com/developit/preact-into-the-void0#/1
-video: https://www.youtube.com/watch?v=LY6y3HbDVmg
+A performant 3kB alternative to React? Jason Miller ([@_developit](https://twitter.com/_developit)) shows how [Preact](https://github.com/developit/preact) came to be, disects JSX and the Virtual DOM and probably has the best slide of the whole conference, maybe even the universe.
+
+<p align="center">
+  <img width="400" src="img/8_decisions.png">
+</p>
+
+The [full video](https://www.youtube.com/watch?v=LY6y3HbDVmg) and [slides](http://slides.com/developit/preact-into-the-void0#/1) are available.
+
+
+
+#### TC39 Panel
+And last but not least, a personal favorite the TC39 Panel. This is a rare pubic gathering of a solid fraction of the people who form the Ecma TC39 Committee. Namely [@littledan](https://twitter.com/littledan) [@maggiepint](https://twitter.com/maggiepint) [@domenic](https://twitter.com/domenic) [@jasnell](https://twitter.com/jasnell) [@MylesBorins](https://twitter.com/MylesBorins). JavaScript is baked right here, they define the JavaScript language. It is maintained on [GitHub](https://github.com/tc39) and people can get easily involved.
+
+Questions were posed live through [Twitter #tc39qs](https://twitter.com/hashtag/tc39qs) and were answered right on stage. So interesting to see!
+
+One of the best quotes is by James:
+*"standards made without community input are not good standards"* - [@jasnell](https://twitter.com/ag_dubs/status/861227966658998272)
+<p align="center">
+  <img width="400" src="img/9_tc39_tweet.png">
+</p>
+
+
+I recommend watching [the whole video](https://www.youtube.com/watch?v=cZTp2MaxcJg), it's worth it and gives valuable insights into how the language is made.
+
 
 
 #### Ben Schwarz: Real world connectivity
 https://www.youtube.com/watch?v=rwyZc1keSew
 
-#### TC39 Panel - @littledan @maggiepint @domenic @jasnell @MylesBorins
-"standards made without community input are not good standards" - @jasnell - https://twitter.com/ag_dubs/status/861227966658998272
-Video: https://www.youtube.com/watch?v=cZTp2MaxcJg
-
-tc39qs - https://twitter.com/hashtag/tc39qs
-
+#### Cartoon intro into web assembly
+https://www.youtube.com/watch?v=HktWin_LPf4
 
 #### The legacy of the JS community
 https://twitter.com/whitneyhacks
 
+Who I quoted for the title of the whole blog post.
 
 
 
-#### Others
 
-- Maggie Pint - Make it easy to use
-https://twitter.com/frontsideair/status/861176599995183105
+#### So many others...
+I could go on and on until I recapped every single talk that I watched. Unfortunately time is limited so here are some others that I want to mention, some of these are already available on the [JSConf YouTube Channel](https://www.youtube.com/user/jsconfeu), others might be added in the future. Finger's crossed!
+
+- Maggie Pint ([@maggiepint](https://twitter.com/maggiepint)) - Patterns for JavaScript Library Design
+  - Lesson, above all: [Make it easy to use!](https://twitter.com/frontsideair/status/861176599995183105)
+
 - Jest - https://facebook.github.io/jest
 - Keep the internet weird
 - Emil Bay, Keeping passwords safe in 2017,
@@ -205,9 +238,10 @@ https://www.youtube.com/watch?v=_iToM2KC0QE
 - service workers outbreak - https://www.youtube.com/watch?v=CPP9ew4Co0M
 - can you read me? - https://www.youtube.com/watch?v=6qd2RZsRNUE
 
-Explore more on their youtube channel: https://www.youtube.com/user/jsconfeu
 
+## Over already??
 
+## Such a good conference
 
 ### Notes
 Coffee break.
@@ -219,7 +253,11 @@ I was so impressed
 Google Cloud Service Coding challenge? Chill out at the community area? Get connected with other people through the community board?
 Some beach sand at the Badeschiff to unwind in between talks?
 
+Meet Emily.
+
 ### Encouraged
+Inspired.
+
 To be myself, encouraged to participate, see how approachable and normal all these stunning people are. Cool!
 
 And I wasn't the only one: https://twitter.com/nebrius/status/861278524719738881
@@ -234,5 +272,6 @@ JSConf is a place for you
 
 
 ### TODOs
-- link images
 - proofread: grammar & spelling
+- link images
+- image titles
