@@ -122,7 +122,7 @@ Unfortunately her talk is not available on the [JSConf youtube channel](https://
 If you have watched [@nested_loops](https://twitter.com/nested_loops)' opening video you may have wondered: *"Why did all the people get mad?"*. The answer is: modularity.
 
 <p align="center">
-  <img width="600" src="img/4_mad.png">
+  <img width="800" src="img/4_mad.png">
 </p>
 
 Ashley Williams ([@ag_dubs](https://twitter.com/ag_dubs)) explores in her talk why we even use modules, what separation of concerns means exactly, and what the costs and dangers of using modules are. And yes there's cost to modularity, that's why there's projects like [closure](https://github.com/google/closure-compiler), [prepack](https://github.com/facebook/prepack) and [tsickle](https://github.com/angular/tsickle) to alleviate them.
@@ -178,7 +178,7 @@ It also comes with a spot-on and a -granted- little dark punshline, that I could
 A performant 3kB alternative to React? Jason Miller ([@_developit](https://twitter.com/_developit)) shows how [Preact](https://github.com/developit/preact) came to be, disects JSX and the Virtual DOM and probably serves the best slide of the whole conference, maybe even the universe:
 
 <p align="center">
-  <img width="400" src="img/8_decisions.png">
+  <img width="600" src="img/8_decisions.png">
 </p>
 
 The [full video](https://www.youtube.com/watch?v=LY6y3HbDVmg) and [slides](http://slides.com/developit/preact-into-the-void0#/1) are available.
@@ -193,7 +193,7 @@ Questions were posed live through [Twitter #tc39qs](https://twitter.com/hashtag/
 One of the best quotes is by James:
 *"standards made without community input are not good standards"* - [@jasnell](https://twitter.com/ag_dubs/status/861227966658998272)
 <p align="center">
-  <img width="400" src="img/9_tc39_tweet.png">
+  <img width="600" src="img/9_tc39_tweet.png">
 </p>
 
 
