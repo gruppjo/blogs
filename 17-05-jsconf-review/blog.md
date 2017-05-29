@@ -10,7 +10,7 @@ Maybe you couldn't go and are super jealous or maybe you did go and just want to
 
 ## Getting ready.
 
-Having JavaScript at the top of my technology-stack for more than 8 years as a Software and Open Source Developer, I knew I had to go. Absolutely. Arrangements were made, and I had the amazing opportunity to be one of the couple of hundred of people coming together from all over the world for everything concerning JavaScript. And, boy, was I excited and, boy, did I not know how bombastically awesome it was going to be!
+Having JavaScript at the top of my technology-stack for more than 8 years as a Software and Open Source Developer, I knew I had to go. Absolutely. Arrangements were made, and I had the amazing opportunity to be one of the hundreds of people coming together from all over the world for everything concerning JavaScript. And, boy, was I excited and boy, did I not know how bombastically awesome it was going to be!
 
 But let's back up a little.
 
@@ -79,13 +79,13 @@ Admittedly the hardest part was deciding which talks I wanted to see. Because, w
 
 Add that to your mobile's home screen and no worries about internet-connectivity and spotty wifi-connection for the whole weekend! How cool is that?
 
-Unfortunately I had an even harder time deciding which talks to write about in this blog post. There were just so many good ones. Hence, please regard the following as a best effort and a compromise between the awesomeness of the talk and the availability of resources for you to look at. The [JSConfEU youtube channel](https://www.youtube.com/user/jsconfeu) is currently updated with videos every couple of days, so be sure to check it out!
+Unfortunately, I had an even harder time deciding which talks to write about in this blog post. There were just so many good ones. Hence, please regard the following as a best effort and a compromise between the awesomeness of the talk and the availability of resources for you to look at. The [JSConfEU youtube channel](https://www.youtube.com/user/jsconfeu) is currently updated with videos every couple of days, so be sure to check it out!
 
 Let's dive in!
 
 
 #### Addy Osmani - The browser hacker's guide to instantly loading everything
-After the grand opening, the conference was kicked-off by no one less than Google's [Addy Osmani](https://addyosmani.com/) ([@addyosmani](https://twitter.com/addyosmani)) with his content-packed talk about page loading performance. My two most important take-aways to look at: Google's [Lighthouse](https://developers.google.com/web/tools/lighthouse/) automation tool and a curated list of articles on that topic at  [medium.com/reloading](https://medium.com/reloading).
+After the grand opening, the conference was kicked-off by no one less than Google's [Addy Osmani](https://addyosmani.com/) ([@addyosmani](https://twitter.com/addyosmani)) with his content-packed talk about page loading performance. My two most important takeaways to look at: Google's [Lighthouse](https://developers.google.com/web/tools/lighthouse/) automation tool and a curated list of articles on that topic at  [medium.com/reloading](https://medium.com/reloading).
 
 <p align="center">
   <img width="300" src="img/3_lighthouse.png">
@@ -109,14 +109,14 @@ Her whole talk is available on [youtube](https://www.youtube.com/watch?v=Wo0qiGP
 #### Ruth John: How To Be A Web A/V Artist
 *"Winamp - it really whips the Llama's ass!"* - do you remember that [phrase](https://www.youtube.com/watch?v=HaF-nRS_CWM)? You probably do, if you were trying to play mp3s on your computer about 15 years ago. If so, you might also remember Winamp Media Player's awesome [live visualization feature](https://www.youtube.com/watch?v=-34Qqd0mAfo) that reacts to the music/sounds you are playing.
 
-Ruth John's ([@Rumyra](https://twitter.com/Rumyra)) enchanting talk does exactly that but way cooler and also in the browser. IN REAL-TIME! Visualisations reacting to her voice, the music, the audience. She does all sorts of cool A/V stuff in the browser together with the other membors of the [live:js collective](http://livejs.network/).
+Ruth John's ([@Rumyra](https://twitter.com/Rumyra)) enchanting talk does exactly that but way cooler and also in the browser. IN REAL-TIME! Visualizations reacting to her voice, the music, the audience. She does all sorts of cool A/V stuff in the browser together with the other members of the [live:js collective](http://livejs.network/).
 
 <p align="center">
   <img width="400" src="img/4_livejs.JPG">
   <img width="250" src="img/4_ruth.jpg">
 </p>
 
-Unfortunately her talk is not available on the [JSConf youtube channel](https://www.youtube.com/user/jsconfeu) (yet?), I'll let you know of any updates!
+Unfortunately, her talk is not available on the [JSConf youtube channel](https://www.youtube.com/user/jsconfeu) (yet?), I'll let you know of any updates!
 
 #### Ashley Williams - A Brief History of Modularity
 If you have watched [@nested_loops](https://twitter.com/nested_loops)' opening video you may have wondered: *"Why did all the people get mad?"*. The answer is: modularity.
@@ -125,7 +125,7 @@ If you have watched [@nested_loops](https://twitter.com/nested_loops)' opening v
   <img width="800" src="img/4_mad.png">
 </p>
 
-Ashley Williams ([@ag_dubs](https://twitter.com/ag_dubs)) explores in her talk why we even use modules, what separation of concerns means exactly, and what the costs and dangers of using modules are. And yes there's cost to modularity, that's why there's projects like [closure](https://github.com/google/closure-compiler), [prepack](https://github.com/facebook/prepack) and [tsickle](https://github.com/angular/tsickle) to alleviate them.
+Ashley Williams ([@ag_dubs](https://twitter.com/ag_dubs)) explores in her talk why we even use modules, what separation of concerns means exactly, and what the costs and dangers of using modules are. And yes there's cost to modularity, that's why there are projects like [closure](https://github.com/google/closure-compiler), [prepack](https://github.com/facebook/prepack) and [tsickle](https://github.com/angular/tsickle) to alleviate them.
 
 
 Her whole talk is available [online](https://www.youtube.com/watch?v=vypCsVm5z28), even the [slides](https://ashleygwilliams.github.io/jsconfeu-2017/#1). Awesome, check it out!
@@ -134,13 +134,13 @@ Her whole talk is available [online](https://www.youtube.com/watch?v=vypCsVm5z28
 
 So while I was busy watching about 14 talks and having super delicious vegetarian meals with refreshing beverages in between, the whole day flew by in what feels like a blink of the eye.
 
-Suddenly in the adjacent party location, I'm surrounded by lashing lights (even more than before), have a Gin&Tonic in my hands while the illustrious [LOOK MUM NO COMPUTER](https://www.youtube.com/channel/UCafxR2HWJRmMfSdyZXvZMTw) rocks away the stage and the crowd, shooting laser beams of analog-synthiness out of his synth-bike intstrument.
+Suddenly in the adjacent party location, I'm surrounded by flashing lights (even more than before), have a Gin&Tonic in my hands while the illustrious [LOOK MUM NO COMPUTER](https://www.youtube.com/channel/UCafxR2HWJRmMfSdyZXvZMTw) rocks away the stage and the crowd, shooting laser beams of analog-synthiness out of his synth-bike instrument.
 
 <p align="center">
   <img width="800" src="img/5_look_mum.png">
 </p>
 
-Wait what? - Yes, it's a bike and it's a music instrument. At the same time.
+Wait, what? - Yes, it's a bike and it's a music instrument. At the same time.
 
 So we ride into the night.
 
@@ -160,11 +160,11 @@ Thirsty for some more V8 deep diving? - So was I! Marja Hölttä ([@marjakh](htt
 Apart from the [video](https://www.youtube.com/watch?v=Fg7niTmNNLg) and her [slides](https://docs.google.com/presentation/d/1b-ALt6W01nIxutFVFmXMOyd_6ou_6qqP6S0Prmb1iDs/edit#slide=id.p), she recommends reading Addy Osmani's [JavaScript Start-up Performance](https://docs.google.com/presentation/d/1b-ALt6W01nIxutFVFmXMOyd_6ou_6qqP6S0Prmb1iDs/edit#slide=id.p).
 
 #### Emily Gorcenski - The Ethics of the Internet of Things
-Emily Gorcenski's ([@EmilyGorcenski](https://twitter.com/EmilyGorcenski)) riveting talk about the *The Ethics of the Internet of Things* completely took me by surprise. While they beautifully elaborate how big of a chance IoT devices are, they also elaborate how IoT devices could and already do create severe ethical and legal dilemmas. It is real. Way more than I thought!
+Emily Gorcenski's ([@EmilyGorcenski](https://twitter.com/EmilyGorcenski)) riveting talk about *The Ethics of the Internet of Things* completely took me by surprise. While they beautifully elaborate how big of a chance IoT devices are, they also elaborate how IoT devices could and already do create severe ethical and legal dilemmas. It is real. Way more than I thought!
 
-In my opinion the whole video is a [definitive must see for every one](https://www.youtube.com/watch?v=xLL7Fo_em2E).
+In my opinion, the whole video is a [definitive must see for everyone](https://www.youtube.com/watch?v=xLL7Fo_em2E).
 
-It also comes with a spot-on and a -granted- little dark punshline, that I could not resist to show you right away.
+It also comes with a spot-on and a -granted- little dark punchline, that I could not resist to show you right away.
 
 <p align="center">
   <img width="400" src="img/7_emily.JPG">
@@ -175,7 +175,7 @@ It also comes with a spot-on and a -granted- little dark punshline, that I could
 
 
 #### Jason Miller - Preact: Into the void 0
-A performant 3kB alternative to React? Jason Miller ([@_developit](https://twitter.com/_developit)) shows how [Preact](https://github.com/developit/preact) came to be, disects JSX and the Virtual DOM and probably serves the best slide of the whole conference, maybe even the universe:
+A performant 3kB alternative to React? Jason Miller ([@_developit](https://twitter.com/_developit)) shows how [Preact](https://github.com/developit/preact) came to be, dissects JSX and the Virtual DOM and probably serves the best slide of the whole conference, maybe even the universe:
 
 <p align="center">
   <img width="600" src="img/8_decisions.png">
@@ -205,11 +205,11 @@ I could go on and on until I recapped every single talk that I watched. Since I 
 
 - Maggie Pint ([@maggiepint](https://twitter.com/maggiepint)) - Patterns for JavaScript Library Design
   - She's a maintainer of [moment.js](https://momentjs.com/) and part of TC39
-  - Lesson, above all: [Make it easy to use!](https://twitter.com/frontsideair/status/861176599995183105)
+  - The lesson, above all: [Make it easy to use!](https://twitter.com/frontsideair/status/861176599995183105)
 - Rachel White ([@ohhoe](https://twitter.com/ohhoe)) - Keep the Internet Weird
   - Cursor effects. DHTML. Learning out of curiosity!
 - Chris Pojer ([@cpojer](cpojer)) - Building High-Quality JavaScript Tools
-  - Check out Facebook's [Jest](https://facebook.github.io/jest) JavaScript's new easy to port to testing-framework.
+  - Check out Facebook's [Jest](https://facebook.github.io/jest) JavaScript's new easy to port to testing framework.
 - Emil Bay ([@emilbayes](https://twitter.com/emilbayes)) - Keeping passwords safe in 2017
   - md5, salted hashes, blowfish, [npm install secure-password](https://www.npmjs.com/package/secure-password)
 - Zachary Johnson & Andrew Reitano - [NESpectre](https://twitter.com/thenespectre): The Massively Multi-Haunted NES
@@ -229,9 +229,9 @@ I could go on and on until I recapped every single talk that I watched. Since I 
 
 ## Such a good conference
 
-A few last words. Apart from all the amazing talks there's a few other things I would like to mention and praise!
+A few last words. Apart from all the amazing talks, there's a few other things I would like to mention and praise!
 
-The whole conference felt so amazingly well organises, from start to finish. I was so impressed. While I was being busy shoving my face with complimentary frozen yoghurt, deciding which awesome print I should get on my shirt, the whole days just flew by in their wholesome exhilirating greatness without any inconveniences. The food was all vegetarian and super delicious. Everything was taken care of from the first breakfast to the closing party at the unique [Hoppetosse](https://hoppetosse.berlin/).
+The whole conference felt so amazingly well organizes, from start to finish. I was so impressed. While I was being busy shoving my face with complimentary frozen yogurt, deciding which awesome print I should get on my shirt, the whole days just flew by in their wholesome exhilarating greatness without any inconveniences. The food was all vegetarian and super delicious. Everything was taken care of from the first breakfast to the closing party at the unique [Hoppetosse](https://hoppetosse.berlin/).
 
 <p align="center">
   <img width="600" src="img/10_froyo.JPG">
@@ -241,11 +241,11 @@ The whole conference felt so amazingly well organises, from start to finish. I w
 
 The location ([Arena Berlin](http://www.arena.berlin/)) was amazing itself and also amazingly well prepared: in between talks and in the breaks you could just unwind at the [Badeschiff](http://www.arena.berlin/veranstaltungsort/badeschiff/) beach for a while, there were chillout areas at the venue and as you could already see the stage was just phenomenal.
 
-If you had nothing proper to do, there were so many fun things to roam around, so many treats and experiences: waiting for your coffe? Why not do a Google Cloud Service Coding Challenge, hang out at the community area and see people talk about their projects or get connected through the community board.
+If you had nothing proper to do, there were so many fun things to roam around, so many treats and experiences: waiting for your coffee? Why not do a Google Cloud Service Coding Challenge, hang out at the community area and see people talk about their projects or get connected through the community board.
 
-On top of everything, the whole atmosphere was so open and inclusive, starting with the gender-neutral bathrooms, the fact that every talk was transcrippted live for those with special needs or even just small details like the color of your badge indicating whether it was ok to take pictures of you or not. So thoughtful.
+On top of everything, the whole atmosphere was so open and inclusive, starting with the gender-neutral bathrooms, the fact that every talk was transcripted live for those with special needs or even just small details like the color of your badge indicating whether it was ok to take pictures of you or not. So thoughtful.
 
-Not in my life I think, have I been so inspired and encouraged to be me. To use somebody else's ([@nebrius](https://twitter.com/nebrius)) words:
+Not in my life, I think, have I been so inspired and encouraged to be me. To use somebody else's ([@nebrius](https://twitter.com/nebrius)) words:
 
 <p align="center">
   <img width="600" src="img/12_beme.png">
