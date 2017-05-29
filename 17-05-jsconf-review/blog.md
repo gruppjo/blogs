@@ -113,7 +113,7 @@ Ruth John's ([@Rumyra](https://twitter.com/Rumyra)) enchanting talk does exactly
 
 <p align="center">
   <img width="400" src="img/4_livejs.JPG">
-  <img width="250" src="img/4_ruth.JPG">
+  <img width="250" src="img/4_ruth.jpg">
 </p>
 
 Unfortunately her talk is not available on the [JSConf youtube channel](https://www.youtube.com/user/jsconfeu) (yet?), I'll let you know of any updates!
@@ -148,7 +148,7 @@ So we ride into the night.
 
 
 #### Dr. Franziska Hinkelmann - JavaScript Engines - how do they even?
-I was still drowsy and bedazzled from all the impressions of the previous day, when Dr. Franziska Hinkelmann [@fhinkel](https://twitter.com/fhinkel) gave the audience solid insights into Chrome's [V8 JavaScript engine](https://developers.google.com/v8/). Hot functions, de-optimization bailout, just in time compilation, you'll learn about all of this. Both the [video](https://www.youtube.com/watch?v=p-iiEDtpy6I) and the [slides](https://fhinkel.github.io/JSEngines-HowDoTheyEven/assets/player/KeynoteDHTMLPlayer.html#0) are available online.
+I was still drowsy and bedazzled from all the impressions of the previous day, when Dr. Franziska Hinkelmann [@fhinkel](https://twitter.com/fhinkel) gave the audience solid insights into Chrome's [V8 JavaScript engine](https://developers.google.com/v8/). Hot functions, de-optimization bailout, just-in-time compilation, you'll learn about all of this. Both the [video](https://www.youtube.com/watch?v=p-iiEDtpy6I) and the [slides](https://fhinkel.github.io/JSEngines-HowDoTheyEven/assets/player/KeynoteDHTMLPlayer.html#0) are available online.
 
 <p align="center">
   <img width="400" src="img/6_v8.png">
@@ -186,7 +186,7 @@ The [full video](https://www.youtube.com/watch?v=LY6y3HbDVmg) and [slides](http:
 
 
 #### TC39 Panel
-And last but not least, a personal favorite the TC39 Panel. This is a rare pubic gathering of a solid fraction of the people who form the Ecma TC39 Committee. Namely [@littledan](https://twitter.com/littledan) [@maggiepint](https://twitter.com/maggiepint) [@domenic](https://twitter.com/domenic) [@jasnell](https://twitter.com/jasnell) [@MylesBorins](https://twitter.com/MylesBorins). JavaScript is baked right here, they define the JavaScript language. It is maintained on [GitHub](https://github.com/tc39) and people can get easily involved.
+And last but not least, a personal favorite the TC39 Panel. This is a rare public gathering of a solid fraction of the people who form the Ecma TC39 Committee. Namely [@littledan](https://twitter.com/littledan) [@maggiepint](https://twitter.com/maggiepint) [@domenic](https://twitter.com/domenic) [@jasnell](https://twitter.com/jasnell) [@MylesBorins](https://twitter.com/MylesBorins). JavaScript is baked right here, they define the JavaScript language. It is maintained on [GitHub](https://github.com/tc39) and people can get easily involved.
 
 Questions were posed live through [Twitter #tc39qs](https://twitter.com/hashtag/tc39qs) and were answered right on stage. So interesting to see!
 
@@ -231,7 +231,7 @@ I could go on and on until I recapped every single talk that I watched. Since I 
 
 A few last words. Apart from all the amazing talks there's a few other things I would like to mention and praise!
 
-The whole conference felt so amazingly well organised, from start to finish. I was so impressed. While I was being busy shoving my face with complimentary frozen yoghurt, deciding which awesome print I should get on my shirt, the whole days just flew by in their wholesome exhilirating greatness without any inconveniences. The food was all vegetarian and super delicious. Everything was taken care of from the first breakfast to the closing party at the unique [Hoppetosse](https://hoppetosse.berlin/).
+The whole conference felt so amazingly well organises, from start to finish. I was so impressed. While I was being busy shoving my face with complimentary frozen yoghurt, deciding which awesome print I should get on my shirt, the whole days just flew by in their wholesome exhilirating greatness without any inconveniences. The food was all vegetarian and super delicious. Everything was taken care of from the first breakfast to the closing party at the unique [Hoppetosse](https://hoppetosse.berlin/).
 
 <p align="center">
   <img width="600" src="img/10_froyo.JPG">
