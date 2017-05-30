@@ -10,7 +10,7 @@ Maybe you couldn't go and are super jealous or maybe you did go and just want to
 
 ## Getting ready.
 
-Having JavaScript at the top of my technology-stack for more than 8 years as a Software and Open Source Developer, I knew I had to go. Absolutely. Arrangements were made, and I had the amazing opportunity to be one the 1000 people coming together from all over the world for everything concerning JavaScript. And, boy, was I excited and boy, did I not know how bombastically awesome it was going to be!
+Having JavaScript at the top of my technology-stack for more than 8 years as a Software and Open Source Developer, I knew I had to go. Absolutely. My manager at Nolte&Lauth made the necessary arrangements, and thus I had the amazing opportunity to be one the 1000 people coming together from all over the world for everything concerning JavaScript. And, boy, was I excited and boy, did I not know how bombastically awesome it was going to be!
 
 But let's back up a little.
 
@@ -257,7 +257,11 @@ All of this led to such a memorable and valuable experience that I will not forg
 
 Thank you to all the amazing people who made this possible. Especially the organizers: [@cramforce](https://twitter.com/cramforce), [@hblank](https://twitter.com/hblank), [@janl](https://twitter.com/janl), [@fox](https://twitter.com/fox)!
 
-I want to close this post with a slide, of Whitney Williams ([@whitneyhacks](https://twitter.com/whitneyhacks)) whose quote I used for the title of this blog post.
+So what are my most valuable takeaways from the whole conference? - I'm a little torn, there's so much good content, I learned so many things.
+
+On a technical level, for my day-to-day work I think it would be Addy Osmani's talk, whose optimization recommendations I will soon apply to the project we're currently working on, here at Nolte&Lauth. Another blog post incoming maybe? We'll see.
+
+And on a personal level I want to close this post with a slide, of Whitney Williams ([@whitneyhacks](https://twitter.com/whitneyhacks)) whose quote I used for the title of this blog post.
 
 Don't forget:
 
