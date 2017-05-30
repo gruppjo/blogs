@@ -10,7 +10,7 @@ Maybe you couldn't go and are super jealous or maybe you did go and just want to
 
 ## Getting ready.
 
-Having JavaScript at the top of my technology-stack for more than 8 years as a Software and Open Source Developer, I knew I had to go. Absolutely. Arrangements were made, and I had the amazing opportunity to be one of the hundreds of people coming together from all over the world for everything concerning JavaScript. And, boy, was I excited and boy, did I not know how bombastically awesome it was going to be!
+Having JavaScript at the top of my technology-stack for more than 8 years as a Software and Open Source Developer, I knew I had to go. Absolutely. Arrangements were made, and I had the amazing opportunity to be one the 1000 people coming together from all over the world for everything concerning JavaScript. And, boy, was I excited and boy, did I not know how bombastically awesome it was going to be!
 
 But let's back up a little.
 
@@ -57,7 +57,7 @@ I'm on the right bus.
   <img width="800" src="img/2_breakfast.JPG">
 </p>
 
-I meet Sues from Brooklyn who goes on to tell me about her friend who organized brooklyn.js, we get inside, everything is purple and blue, I get my badge and then - thank god there's breakfast - I chat with Sonja who's here with her colleagues from Amsterdam. Hipster-beards, neon-blue undercut hairstyles, gender-neutral bathrooms and an appealing assortment of organic lemonade and other beverages everywhere.
+I meet Suz [@noopcat](https://twitter.com/noopkat) from Brooklyn who goes on to tell me about her friend who organizes [brooklyn.js](http://brooklynjs.com/), we get inside, everything is purple and blue, I get my badge and then - thank god there's breakfast - I chat with Sonja who's here with her colleagues from Amsterdam. Hipster-beards, neon-blue undercut hairstyles, gender-neutral bathrooms and an appealing assortment of organic lemonade and other beverages everywhere.
 
 Wow, ohh... do I feel at home!
 
@@ -231,7 +231,7 @@ I could go on and on until I recapped every single talk that I watched. Since I 
 
 A few last words. Apart from all the amazing talks, there's a few other things I would like to mention and praise!
 
-The whole conference felt so amazingly well organizes, from start to finish. I was so impressed. While I was being busy shoving my face with complimentary frozen yogurt, deciding which awesome print I should get on my shirt, the whole days just flew by in their wholesome exhilarating greatness without any inconveniences. The food was all vegetarian and super delicious. Everything was taken care of from the first breakfast to the closing party at the unique [Hoppetosse](https://hoppetosse.berlin/).
+The whole conference felt so amazingly well organizes, from start to finish. I was so impressed. While I was being busy shoving my face with complimentary frozen yogurt, deciding which awesome print I should get on my shirt, the whole days just flew by in their wholesome exhilarating greatness without any inconveniences. The food and catering was really, really good. Everything was taken care of from the first breakfast to the closing party at the unique [Hoppetosse](https://hoppetosse.berlin/).
 
 <p align="center">
   <img width="600" src="img/10_froyo.JPG">
@@ -245,7 +245,7 @@ If you had nothing proper to do, there were so many fun things to roam around, s
 
 On top of everything, the whole atmosphere was so open and inclusive, starting with the gender-neutral bathrooms, the fact that every talk was transcripted live for those with special needs or even just small details like the color of your badge indicating whether it was ok to take pictures of you or not. So thoughtful.
 
-Not in my life, I think, have I been so inspired and encouraged to be me. To use somebody else's ([@nebrius](https://twitter.com/nebrius)) words:
+Not in my life, I think, have I been so inspired and encouraged to be me. To use somebody else's words ([@nebrius](https://twitter.com/nebrius) who also talks about his JSConf experience on [medium.com](https://medium.com/@nebrius/an-open-love-letter-to-jsconf-eu-and-how-it-ended-my-2016-40f0b441e9d5)):
 
 <p align="center">
   <img width="600" src="img/12_beme.png">
