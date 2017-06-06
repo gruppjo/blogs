@@ -231,7 +231,7 @@ I could go on and on until I recapped every single talk that I watched. Since I 
 
 A few last words. Apart from all the amazing talks, there's a few other things I would like to mention and praise!
 
-The whole conference felt so amazingly well organizes, from start to finish. I was so impressed. While I was being busy shoving my face with complimentary frozen yogurt, deciding which awesome print I should get on my shirt, the whole days just flew by in their wholesome exhilarating greatness without any inconveniences. The food and catering was really, really good. Everything was taken care of from the first breakfast to the closing party at the unique [Hoppetosse](https://hoppetosse.berlin/).
+The whole conference felt so amazingly well organized, from start to finish. I was so impressed. While I was being busy shoving my face with complimentary frozen yogurt, deciding which awesome print I should get on my shirt, the whole days just flew by in their wholesome exhilarating greatness without any inconveniences. The food and catering was really, really good. Everything was taken care of from the first breakfast to the closing party at the unique [Hoppetosse](https://hoppetosse.berlin/).
 
 <p align="center">
   <img width="600" src="img/10_froyo.JPG">
