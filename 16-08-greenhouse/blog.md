@@ -1,3 +1,5 @@
+> Published September 16, 2016 on [Thinking Mobile](https://blog.mwaysolutions.com/2016/09/14/build-and-distribute-your-ionic-apps-using-greenhouse-ci-relution/).
+
 # Build and Distribute your Ionic apps using Greenhouse CI & Relution
 A smooth and stress-free workflow that you can explore right now. For free!
 
