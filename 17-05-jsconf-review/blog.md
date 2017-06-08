@@ -1,3 +1,5 @@
+> Published June 2, 2017 on the [NOLTE&LAUTH Blog](https://twitter.com/JonathanGrupp/status/872103637585203201)
+
 # JSConf EU 2017 - People first. Always.
 
 <p align="center">
