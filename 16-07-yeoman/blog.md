@@ -1,4 +1,4 @@
-> Originally published July 13, 2016 on the [Yeoman Blog](http://yeoman.io/blog/generator-m-ionic-js-fatigue-and-transitioning-to-typescript-angular-2-and-ionic-2.html).
+> Published July 13, 2016 on the [Yeoman Blog](http://yeoman.io/blog/generator-m-ionic-js-fatigue-and-transitioning-to-typescript-angular-2-and-ionic-2.html).
 
 # Generator-M-Ionic: JS fatigue and transitioning to Typescript, Angular 2 & Ionic 2
 

@@ -1,4 +1,4 @@
-> Originally published September 10, 2015 on the [M-Way Solutions Blog](http://blog.mwaysolutions.com/2015/09/10/generator-m-ionic-html5-mobile-app-development-evolved/).
+> Published September 10, 2015 on the [M-Way Solutions Blog](http://blog.mwaysolutions.com/2015/09/10/generator-m-ionic-html5-mobile-app-development-evolved/).
 
 # Generator-M(-Ionic): HTML5 mobile app development evolved
 

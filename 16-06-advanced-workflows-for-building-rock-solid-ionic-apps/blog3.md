@@ -1,4 +1,4 @@
-> Originally published July 7, 2016 on the [Ionic Blog](http://blog.ionic.io/advanced-workflows-for-building-rock-solid-ionic-apps-part-3/) in a slightly modified version and later on [Pluralsight](http://tutorials.pluralsight.com/front-end-javascript/advanced-workflows-for-building-rock-solid-ionic-apps-part-3-orbit).
+> Published July 7, 2016 on the [Ionic Blog](http://blog.ionic.io/advanced-workflows-for-building-rock-solid-ionic-apps-part-3/) in a slightly modified version and later on [Pluralsight](http://tutorials.pluralsight.com/front-end-javascript/advanced-workflows-for-building-rock-solid-ionic-apps-part-3-orbit).
 
 
 ### Advanced workflows for building rock-solid Ionic apps. Part 3: Orbit

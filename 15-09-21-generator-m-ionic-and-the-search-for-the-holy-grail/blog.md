@@ -1,4 +1,4 @@
-> Originally published September 21, 2015 on the [M-Way Solutions Blog](http://blog.mwaysolutions.com/2015/09/21/generator-m-ionic-and-the-search-for-the-holy-grail/).
+> Published September 21, 2015 on the [M-Way Solutions Blog](http://blog.mwaysolutions.com/2015/09/21/generator-m-ionic-and-the-search-for-the-holy-grail/).
 
 
 # Generator-M-Ionic: and the search for the holy grail
